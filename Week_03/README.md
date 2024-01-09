@@ -1,36 +1,27 @@
 # Week_03
 
-## Unit1 §2 Inheritance and Methods
-   * Static Methods (2020.03.18)
-      * 影片：https://youtu.be/Xw8PQTTKnUU
-   * Flow Control (2020.03.18)       
-      * 影片：https://youtu.be/h0YrJaoCghk
-   * JOptionPane (2020.03.18) 
-      * 影片：https://youtu.be/b7C1GgudBO8
-   * FCPS Unit1 Lab05~Lab06
-      * 影片：https://youtu.be/JKUYIzvwuMw
-   * MapBuilder
-      * 影片：https://youtu.be/5L5TknNHq2c
-   * EclipseDebug
-      * 影片：https://youtu.be/nBfycTLG814
-      
-## 下拉式選單
+## Unit1 §3 Algorithms and Polymorphism
+   * ClassTypeWithStringExample (== and .equals()) (2020.03.25) 
+      * 影片：https://youtu.be/mnF591f05FA
+   * Casting (Upcasting and Downcasting) (2020.03.25)    
+      * 影片：https://youtu.be/yu4ViYym9bE
+   * FCPS Unit1 Lab07~Lab09
+      * 影片：https://youtu.be/vV4CyK9XonM
+   * FCPS Unit1 Lab10
+      * 影片：https://youtu.be/3RZJST76yNs
+   * Algorithm (Lab10 Maze Escape) (2020.04.01)
+      * 影片：https://youtu.be/hrQZZ3fefH8
 
-    Object[] maps= {"map1","map2","map3"};  #用陣列存取地圖  
-    String filename = (String) JOptionPane.showInputDialog(null,"What robot world?","Lab00",JOptionPane.ERROR_MESSAGE,null,maps,"maps[0]");  
+## Lab 10 extra
+   * 於學期結束前完成 Lab10 extra，可於學期總成績加分
+      * 所有地圖皆需以沿著右手邊的牆走來完成
+      * 需為程式加註解，避免抄襲
 
-
-## MapBuilder & EclipseDebug
- * PPT
-    * 於上方檔案中: Escape Debug&MapBuilder.pptx 
- * MapBuilder
-    * 影片：https://youtu.be/5L5TknNHq2c
- * EclipseDebug
-    * 影片：https://youtu.be/nBfycTLG814
-
- 
 ## 解答
   * Lab 解答影片
-      * Unit1 Lab05 Ans：https://www.youtube.com/watch?v=kY5Gu4eCsQk
-      * Unit1 Lab06 Ans：https://www.youtube.com/watch?v=ULHIGtv_-cw
       * Unit1 Lab07 Ans：https://www.youtube.com/watch?v=8qNiUXy1GBE
+      * Unit1 Lab08 Ans：https://youtu.be/GviJpIeKKGM
+      * Unit1 Lab09 Ans：https://youtu.be/PFXOT78Nr9c
+      * Unit1 Lab10 Ans：https://youtu.be/_K_jnKpUrwU
+
+
