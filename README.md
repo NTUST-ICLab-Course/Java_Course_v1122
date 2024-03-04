@@ -12,8 +12,8 @@
 |:--:|:---:|:-----:|:-----------------------:|:---------------------|:---------------------------------------|
 | 1  | 2/22     | 2/20      |**Eclipse and Course Demo**             | **Unit1/** <br>00,01         |安裝 FCPS JKarel 的程式 <br>Lab00~Lab01 |
 | 2  | 2/29     | 2/27      |**Unit1** <br> §1 Classes and Objects <br> §2 Inheritance and Methods  | 02,03,04,05,06    |Lab02~Lab06        |
-| 3  | 3/7      | 3/5       |§3 Algorithms and Polymorphism          | 07,08,09,10                  |Lab07~Lab09 <br>  Lab10                |
-| 4  | 3/14     | 3/12      |§4 Abstract Classes and Interfaces      | 11,12,14,15,16               |Lab11\~12; Lab14~16 <br> EclipseDebug  |
+| 3  | 3/7      | 3/5       |§3 Algorithms and Polymorphism          | 07,08,09                     |Lab07~Lab09                |
+| 4  | 3/14     | 3/12      |§4 Abstract Classes and Interfaces      | 10,11,12,14,15,16            |Lab10\~12; Lab14~16 <br> EclipseDebug  |
 | 5  | 3/21     | 3/19      |§5 Return, break, and continue <br> § Appendix: Array and Recursive    | 17,18,19 <br> Appendix      |Lab17~19 <br> Appendix     |
 | 6  | 3/28     | 3/26      |**Unit2** <br>  §1 Graphics             | **Unit2/** <br>00,01,02,03   |Unit2 Lab00~03                         |
 | 7  | 4/4 <br>(放假) | 4/2 |**清明節放假**                           |                              |                                       |
