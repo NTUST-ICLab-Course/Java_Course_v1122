@@ -13,6 +13,7 @@ public class Lab00 {
 		Display.openWorld("maps/first.map");
 		Robot karel = new Robot();
       
+      
       //test
 	}
 
