@@ -50,7 +50,7 @@ public class Lab02 {
       lisa.move();
       lisa.putBeeper();
       lisa.move();
-      //test
+      //testllll
 	}
 
 }
