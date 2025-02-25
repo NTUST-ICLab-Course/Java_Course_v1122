@@ -21,10 +21,25 @@ public class Lab01 {
       lisa.turnLeft();
       lisa.move();
       lisa.pickBeeper();
-      
+      lisa.turnLeft();
+      lisa.turnLeft();
+      lisa.move();
+      lisa.turnLeft();
+      lisa.turnLeft();
+      lisa.turnLeft();
       lisa.move();
       lisa.turnLeft();
       lisa.move();
+      lisa.move();
+      lisa.move();
+      lisa.turnLeft();
+      lisa.move();
+      lisa.move();
+      lisa.move();
+      lisa.turnLeft();
+
+     
+      
       lisa.putBeeper();
       lisa.move();
       lisa.turnLeft();
