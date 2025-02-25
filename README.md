@@ -10,13 +10,13 @@
 ## 週次表 
 | 週  |正課|實習課|       正課教學內容       |    實習課內容    | 影片範圍 |
 |:--:|:---:|:-----:|:-----------------------:|:---------------------|:---------------------------------------|
-| 1  | 2/22     | 2/20      |**Eclipse and Course Demo**             | **Unit1/** <br>00,01         |安裝 FCPS JKarel 的程式 <br>Lab00~Lab01 |
-| 2  | 2/29     | 2/27      |**Unit1** <br> §1 Classes and Objects <br> §2 Inheritance and Methods  | 02,03,04,05     |Lab02~Lab05        |
-| 3  | 3/7      | 3/5       |§3 Algorithms and Polymorphism          | 06,07,08,09                  |Lab06~Lab09                |
-| 4  | 3/14     | 3/12      |§4 Abstract Classes and Interfaces      | 10,11,12,14,15,16            |Lab10\~12; Lab14~16 <br> EclipseDebug  |
-| 5  | 3/21     | 3/19      |§5 Return, break, and continue <br> § Appendix: Array and Recursive    | 17,18,19 <br> Appendix      |Lab17~19 <br> Appendix     |
-| 6  | 3/28     | 3/26      |**Unit2** <br>  §1 Graphics             | **Unit2/** <br>00,01,02,03   |Unit2 Lab00~03                         |
-| 7  | 4/4 <br>(放假) | 4/2 |**清明節放假**                           |                              |                                       |
+| 1  | 2/17     | 2/18      |**Eclipse and Course Demo**             | **Unit1/** <br>00,01         |安裝 FCPS JKarel 的程式 <br>Lab00~Lab01 |
+| 2  | 2/24     | 2/25      |**Unit1** <br> §1 Classes and Objects <br> §2 Inheritance and Methods  | 02,03,04,05     |Lab02~Lab05        |
+| 3  | 3/3  <br>(放假)     | 3/4       |§3 Algorithms and Polymorphism          | 06,07,08,09                  |Lab06~Lab09                |
+| 4  | 3/10     | 3/11      |§4 Abstract Classes and Interfaces      | 10,11,12,14,15,16            |Lab10\~12; Lab14~16 <br> EclipseDebug  |
+| 5  | 3/17     | 3/18      |§5 Return, break, and continue <br> § Appendix: Array and Recursive    | 17,18,19 <br> Appendix      |Lab17~19 <br> Appendix     |
+| 6  | 3/24     | 3/25      |**Unit2** <br>  §1 Graphics             | **Unit2/** <br>00,01,02,03   |Unit2 Lab00~03                         |
+| 7  | 3/31 | 4/2 |**清明節放假**                           |                              |                                       |
 | 8  | 4/11     | 4/9       |**期中考**                              | **期中考**                    |                                       |
 | 9  | 4/18     | 4/16      |§2 Static vs Instance, Class vs Object | 04,05,06                      |Unit2 Lab04~09                         |
 | 10 | 4/25     | 4/23      |§3 Animation                           | 07,08,09                      |                                       |
