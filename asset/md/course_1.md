@@ -26,12 +26,11 @@
 
 
 ## MapBuilder & EclipseDebug
- * PPT
-    * 於上方檔案中: Escape Debug&MapBuilder.pptx 
+ * [PPT](../docs/Escape%20Debug&MapBuilder.pptx)
  * MapBuilder
-    * 影片：https://youtu.be/5L5TknNHq2c
+    * [影片](https://youtu.be/5L5TknNHq2c)
  * EclipseDebug
-    * 影片：https://youtu.be/nBfycTLG814
+    * [影片](https://youtu.be/nBfycTLG814)
 
 
 ## 解答 Lab02~Lab05
