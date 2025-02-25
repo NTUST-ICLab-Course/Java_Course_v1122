@@ -1,0 +1,584 @@
+[2025-02-25 16:02:20] Executing bootstrap tasks
+[2025-02-25 16:02:20] OpenJDK Runtime Environment 21.0.5+11-LTS
+[2025-02-25 16:02:20] Product org.eclipse.products.epp.package.jee.2024-12
+[2025-02-25 16:02:20] Bundle org.eclipse.oomph.setup 1.30.0.v20241121-1452, build=956, branch=9492b73f886b51a7adb67340c1cb41103c54ac80
+[2025-02-25 16:02:20] Bundle org.eclipse.oomph.setup.core 1.32.0.v20241021-1110, build=956, branch=9492b73f886b51a7adb67340c1cb41103c54ac80
+[2025-02-25 16:02:20] Bundle org.eclipse.oomph.setup.p2 1.21.0.v20240420-0837, build=956, branch=9492b73f886b51a7adb67340c1cb41103c54ac80
+[2025-02-25 16:02:20] Performing P2 Director (Eclipse IDE for Enterprise Java and Web Developers (2024-12) + JRE 23.0.2)
+[2025-02-25 16:02:20] Offline = false
+[2025-02-25 16:02:20] Mirrors = true
+[2025-02-25 16:02:20] Resolving 95 requirements from 4 repositories to C:\Kamui\ntust\Java_Course_v1122\eclipse
+[2025-02-25 16:02:20] Requirement org.eclipse.equinox.p2.iu:org.eclipse.justj.openjdk.hotspot.jre.full.feature.group (filter=(|(&(osgi.arch=aarch64)(osgi.os=linux))(&(osgi.arch=aarch64)(osgi.os=macosx))(&(osgi.arch=aarch64)(osgi.os=win32))(&(osgi.arch=ppc64le)(osgi.os=linux))(&(osgi.arch=riscv64)(osgi.os=linux))(&(osgi.arch=x86_64)(osgi.os=linux))(&(osgi.arch=x86_64)(osgi.os=macosx))(&(osgi.arch=x86_64)(osgi.os=win32))))
+[2025-02-25 16:02:20] Requirement org.eclipse.equinox.p2.iu:epp.package.jee [4.34.0,5.0.0) (filter=(|(&(osgi.arch=aarch64)(osgi.os=linux)(osgi.ws=gtk))(&(osgi.arch=aarch64)(osgi.os=macosx)(osgi.ws=cocoa))(&(osgi.arch=aarch64)(osgi.os=win32)(osgi.ws=win32))(&(osgi.arch=riscv64)(osgi.os=linux)(osgi.ws=gtk))(&(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))(&(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))(&(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))))
+[2025-02-25 16:02:20] Requirement org.eclipse.equinox.p2.iu:org.eclipse.platform.feature.group [4.34.0,5.0.0)
+[2025-02-25 16:02:20] Requirement org.eclipse.equinox.p2.iu:org.eclipse.rcp.feature.group [4.34.0,5.0.0)
+[2025-02-25 16:02:20] Requirement org.eclipse.equinox.p2.iu:org.eclipse.buildship.feature.group
+[2025-02-25 16:02:20] Requirement org.eclipse.equinox.p2.iu:org.eclipse.datatools.common.doc.user.feature.group
+[2025-02-25 16:02:20] Requirement org.eclipse.equinox.p2.iu:org.eclipse.datatools.connectivity.doc.user.feature.group
+[2025-02-25 16:02:20] Requirement org.eclipse.equinox.p2.iu:org.eclipse.datatools.connectivity.feature.feature.group
+[2025-02-25 16:02:20] Requirement org.eclipse.equinox.p2.iu:org.eclipse.datatools.connectivity.oda.designer.core.feature.feature.group
+[2025-02-25 16:02:20] Requirement org.eclipse.equinox.p2.iu:org.eclipse.datatools.connectivity.oda.designer.feature.feature.group
+[2025-02-25 16:02:20] Requirement org.eclipse.equinox.p2.iu:org.eclipse.datatools.connectivity.oda.feature.feature.group
+[2025-02-25 16:02:20] Requirement org.eclipse.equinox.p2.iu:org.eclipse.datatools.doc.user.feature.group
+[2025-02-25 16:02:20] Requirement org.eclipse.equinox.p2.iu:org.eclipse.datatools.enablement.apache.derby.feature.feature.group
+[2025-02-25 16:02:20] Requirement org.eclipse.equinox.p2.iu:org.eclipse.datatools.enablement.feature.feature.group
+[2025-02-25 16:02:20] Requirement org.eclipse.equinox.p2.iu:org.eclipse.datatools.enablement.hsqldb.feature.feature.group
+[2025-02-25 16:02:20] Requirement org.eclipse.equinox.p2.iu:org.eclipse.datatools.enablement.ibm.feature.feature.group
+[2025-02-25 16:02:20] Requirement org.eclipse.equinox.p2.iu:org.eclipse.datatools.enablement.ingres.feature.feature.group
+[2025-02-25 16:02:20] Requirement org.eclipse.equinox.p2.iu:org.eclipse.datatools.enablement.jdbc.feature.feature.group
+[2025-02-25 16:02:20] Requirement org.eclipse.equinox.p2.iu:org.eclipse.datatools.enablement.jdt.feature.feature.group
+[2025-02-25 16:02:20] Requirement org.eclipse.equinox.p2.iu:org.eclipse.datatools.enablement.msft.feature.feature.group
+[2025-02-25 16:02:20] Requirement org.eclipse.equinox.p2.iu:org.eclipse.datatools.enablement.mysql.feature.feature.group
+[2025-02-25 16:02:20] Requirement org.eclipse.equinox.p2.iu:org.eclipse.datatools.enablement.oda.designer.feature.feature.group
+[2025-02-25 16:02:20] Requirement org.eclipse.equinox.p2.iu:org.eclipse.datatools.enablement.oda.feature.feature.group
+[2025-02-25 16:02:20] Requirement org.eclipse.equinox.p2.iu:org.eclipse.datatools.enablement.oracle.feature.feature.group
+[2025-02-25 16:02:20] Requirement org.eclipse.equinox.p2.iu:org.eclipse.datatools.enablement.postgresql.feature.feature.group
+[2025-02-25 16:02:20] Requirement org.eclipse.equinox.p2.iu:org.eclipse.datatools.enablement.sap.feature.feature.group
+[2025-02-25 16:02:20] Requirement org.eclipse.equinox.p2.iu:org.eclipse.datatools.enablement.sdk.feature.feature.group
+[2025-02-25 16:02:20] Requirement org.eclipse.equinox.p2.iu:org.eclipse.datatools.enablement.sqlite.feature.feature.group
+[2025-02-25 16:02:20] Requirement org.eclipse.equinox.p2.iu:org.eclipse.datatools.enablement.sybase.feature.feature.group
+[2025-02-25 16:02:20] Requirement org.eclipse.equinox.p2.iu:org.eclipse.datatools.intro.feature.group
+[2025-02-25 16:02:20] Requirement org.eclipse.equinox.p2.iu:org.eclipse.datatools.modelbase.feature.feature.group
+[2025-02-25 16:02:20] Requirement org.eclipse.equinox.p2.iu:org.eclipse.datatools.sdk.feature.feature.group
+[2025-02-25 16:02:20] Requirement org.eclipse.equinox.p2.iu:org.eclipse.datatools.sqldevtools.data.feature.feature.group
+[2025-02-25 16:02:20] Requirement org.eclipse.equinox.p2.iu:org.eclipse.datatools.sqldevtools.ddl.feature.feature.group
+[2025-02-25 16:02:20] Requirement org.eclipse.equinox.p2.iu:org.eclipse.datatools.sqldevtools.ddlgen.feature.feature.group
+[2025-02-25 16:02:20] Requirement org.eclipse.equinox.p2.iu:org.eclipse.datatools.sqldevtools.feature.feature.group
+[2025-02-25 16:02:20] Requirement org.eclipse.equinox.p2.iu:org.eclipse.datatools.sqldevtools.parsers.feature.feature.group
+[2025-02-25 16:02:20] Requirement org.eclipse.equinox.p2.iu:org.eclipse.datatools.sqldevtools.results.feature.feature.group
+[2025-02-25 16:02:20] Requirement org.eclipse.equinox.p2.iu:org.eclipse.datatools.sqldevtools.schemaobjecteditor.feature.feature.group
+[2025-02-25 16:02:20] Requirement org.eclipse.equinox.p2.iu:org.eclipse.datatools.sqldevtools.sqlbuilder.feature.feature.group
+[2025-02-25 16:02:20] Requirement org.eclipse.equinox.p2.iu:org.eclipse.datatools.sqltools.doc.user.feature.group
+[2025-02-25 16:02:20] Requirement org.eclipse.equinox.p2.iu:org.eclipse.eclemma.feature.feature.group
+[2025-02-25 16:02:20] Requirement org.eclipse.equinox.p2.iu:org.eclipse.egit.feature.group
+[2025-02-25 16:02:20] Requirement org.eclipse.equinox.p2.iu:org.eclipse.epp.mpc.feature.group
+[2025-02-25 16:02:20] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jdt.bcoview.feature.feature.group
+[2025-02-25 16:02:20] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jdt.feature.group
+[2025-02-25 16:02:20] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jgit.feature.group
+[2025-02-25 16:02:20] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jpt.common.eclipselink.feature.feature.group
+[2025-02-25 16:02:20] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jpt.common.feature.feature.group
+[2025-02-25 16:02:20] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jpt.jaxb.eclipselink.feature.feature.group
+[2025-02-25 16:02:20] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jpt.jaxb.feature.feature.group
+[2025-02-25 16:02:20] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jpt.jpa.eclipselink.feature.feature.group
+[2025-02-25 16:02:20] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jpt.jpa.feature.feature.group
+[2025-02-25 16:02:20] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jsf.feature.feature.group
+[2025-02-25 16:02:20] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jst.common.fproj.enablement.jdt.feature.group
+[2025-02-25 16:02:20] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jst.enterprise_ui.feature.feature.group
+[2025-02-25 16:02:20] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jst.jsf.apache.trinidad.tagsupport.feature.feature.group
+[2025-02-25 16:02:20] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jst.server_adapters.ext.feature.feature.group
+[2025-02-25 16:02:20] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jst.server_adapters.feature.feature.group
+[2025-02-25 16:02:20] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jst.server_ui.feature.feature.group
+[2025-02-25 16:02:20] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jst.web_ui.feature.feature.group
+[2025-02-25 16:02:20] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jst.webpageeditor.feature.feature.group
+[2025-02-25 16:02:20] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jst.ws.axis2tools.feature.feature.group
+[2025-02-25 16:02:20] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jst.ws.cxf.feature.feature.group
+[2025-02-25 16:02:20] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jst.ws.jaxws.dom.feature.feature.group
+[2025-02-25 16:02:20] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jst.ws.jaxws.feature.feature.group
+[2025-02-25 16:02:20] Requirement org.eclipse.equinox.p2.iu:org.eclipse.m2e.feature.feature.group
+[2025-02-25 16:02:20] Requirement org.eclipse.equinox.p2.iu:org.eclipse.m2e.lemminx.feature.feature.group
+[2025-02-25 16:02:20] Requirement org.eclipse.equinox.p2.iu:org.eclipse.m2e.logback.feature.feature.group
+[2025-02-25 16:02:20] Requirement org.eclipse.equinox.p2.iu:org.eclipse.m2e.pde.feature.feature.group
+[2025-02-25 16:02:20] Requirement org.eclipse.equinox.p2.iu:org.eclipse.m2e.wtp.feature.feature.group
+[2025-02-25 16:02:20] Requirement org.eclipse.equinox.p2.iu:org.eclipse.m2e.wtp.jaxrs.feature.feature.group
+[2025-02-25 16:02:20] Requirement org.eclipse.equinox.p2.iu:org.eclipse.m2e.wtp.jpa.feature.feature.group
+[2025-02-25 16:02:20] Requirement org.eclipse.equinox.p2.iu:org.eclipse.m2e.wtp.jsf.feature.feature.group
+[2025-02-25 16:02:20] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.commons.activity.feature.feature.group
+[2025-02-25 16:02:20] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.egit.feature.feature.group
+[2025-02-25 16:02:20] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.git.feature.feature.group
+[2025-02-25 16:02:20] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.github.feature.feature.group
+[2025-02-25 16:02:20] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.ide.feature.feature.group
+[2025-02-25 16:02:20] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.jdt.feature.feature.group
+[2025-02-25 16:02:20] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.jenkins.feature.feature.group
+[2025-02-25 16:02:20] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.pde.feature.feature.group
+[2025-02-25 16:02:20] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.reviews.feature.feature.group
+[2025-02-25 16:02:20] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.wikitext.feature.feature.group
+[2025-02-25 16:02:20] Requirement org.eclipse.equinox.p2.iu:org.eclipse.pde.feature.group
+[2025-02-25 16:02:20] Requirement org.eclipse.equinox.p2.iu:org.eclipse.tips.feature.feature.group
+[2025-02-25 16:02:20] Requirement org.eclipse.equinox.p2.iu:org.eclipse.tm.terminal.feature.feature.group
+[2025-02-25 16:02:20] Requirement org.eclipse.equinox.p2.iu:org.eclipse.tm4e.feature.feature.group
+[2025-02-25 16:02:20] Requirement org.eclipse.equinox.p2.iu:org.eclipse.tm4e.language_pack.feature.feature.group
+[2025-02-25 16:02:20] Requirement org.eclipse.equinox.p2.iu:org.eclipse.wildwebdeveloper.embedder.node.feature.feature.group
+[2025-02-25 16:02:20] Requirement org.eclipse.equinox.p2.iu:org.eclipse.wildwebdeveloper.feature.feature.group
+[2025-02-25 16:02:20] Requirement org.eclipse.equinox.p2.iu:org.eclipse.wst.common.fproj.feature.group
+[2025-02-25 16:02:20] Requirement org.eclipse.equinox.p2.iu:org.eclipse.wst.server_adapters.feature.feature.group
+[2025-02-25 16:02:20] Requirement org.eclipse.equinox.p2.iu:org.eclipse.wst.xsl.feature.feature.group
+[2025-02-25 16:02:20] Requirement org.eclipse.equinox.p2.iu:org.eclipse.oomph.setup.feature.group
+[2025-02-25 16:02:20] Repository https://download.eclipse.org/justj/jres/23/updates/release/latest
+[2025-02-25 16:02:20] Repository https://download.eclipse.org/technology/epp/packages/2024-12/202411281200
+[2025-02-25 16:02:20] Repository https://download.eclipse.org/releases/2024-12/202412041000
+[2025-02-25 16:02:20] Repository https://download.eclipse.org/oomph/updates/milestone/latest
+[2025-02-25 16:02:29] Calculating requirements and dependencies.
+[2025-02-25 16:02:31] Computing prerequisite plan
+[2025-02-25 16:02:37] Collecting 1157 artifacts from https://download.eclipse.org/releases/2024-12/202412041000
+[2025-02-25 16:02:39] Fetching org.osgi.namespace.contract_1.0.0.201505202024.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (11.35kB)
+[2025-02-25 16:02:40] Fetching com.google.guava.failureaccess_1.0.2.jar from https://mirror.umd.edu/eclipse/releases/2024-12/202412041000/plugins/ (4.63kB)
+[2025-02-25 16:02:40] Fetching org.eclipse.jetty.ee8.jndi_12.0.15.jar from https://mirrors.xmission.com/eclipse/releases/2024-12/202412041000/plugins/ (6.66kB)
+[2025-02-25 16:02:40] Fetching org.osgi.namespace.service_1.0.0.201505202024.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (11.46kB)
+[2025-02-25 16:02:40] Fetching org.apiguardian.api_1.1.2.jar from https://eclipse.mirror.rafal.ca/releases/2024-12/202412041000/plugins/ (6.65kB)
+[2025-02-25 16:02:40] Fetching jakarta.inject.jakarta.inject-api_2.0.1.jar from https://ca.mirrors.cicku.me/eclipse//releases/2024-12/202412041000/plugins/ (10.43kB)
+[2025-02-25 16:02:40] Fetching org.bndtools.versioncontrol.ignores.plugin.git_7.0.0.202310060912.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (11.59kB)
+[2025-02-25 16:02:40] Fetching jakarta.inject.jakarta.inject-api_1.0.5.jar from https://ftp2.osuosl.org/pub/eclipse/releases/2024-12/202412041000/plugins/ (10.61kB)
+[2025-02-25 16:02:40] Fetching org.osgi.namespace.extender_1.0.1.201505202024.jar from https://mirrors.jevincanders.net/eclipse/releases/2024-12/202412041000/plugins/ (11.38kB)
+[2025-02-25 16:02:40] Fetching org.eclipse.jetty.ee_12.0.15.jar from https://download.eclipse.org/releases/2024-12/202412041000/plugins/ (4.46kB)
+[2025-02-25 16:02:40] Fetching org.eclipse.platform_root_4.34.0.v20241120-1800 from https://mirror.csclub.uwaterloo.ca/eclipse/releases/2024-12/202412041000/binary/ (196B)
+[2025-02-25 16:02:40] Fetching org.eclipse.e4.ui.swt.win32_1.2.300.v20240416-0658.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (12.16kB)
+[2025-02-25 16:02:40] Fetching javax.xml.jre_1.3.4.202210170008.jar from https://mirror.serverion.com/eclipse/releases/2024-12/202412041000/plugins/ (9.18kB)
+[2025-02-25 16:02:40] Fetching org.eclipse.wildwebdeveloper.embedder.node_1.0.7.202411181924.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (12.74kB)
+[2025-02-25 16:02:40] Fetching org.eclipse.wildwebdeveloper.xml.feature_1.3.6.202409052135.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (12.79kB)
+[2025-02-25 16:02:40] Fetching org.eclipse.wildwebdeveloper.feature_1.3.9.202411190713.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (12.9kB)
+[2025-02-25 16:02:40] Fetching org.eclipse.e4.core.di.extensions_0.18.300.v20240413-1529.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (12.96kB)
+[2025-02-25 16:02:41] Fetching org.bndtools.headless.build.manager_7.0.0.202310060912.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (13.15kB)
+[2025-02-25 16:02:41] Fetching org.eclipse.mylyn.wikitext.markdown.ui_4.5.0.v20241002-1142.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (13.25kB)
+[2025-02-25 16:02:41] Fetching org.eclipse.ecf.provider.filetransfer.ssl_1.1.0.v20240812-1535.jar from https://ca.mirrors.cicku.me/eclipse//releases/2024-12/202412041000/plugins/ (12.94kB)
+[2025-02-25 16:02:41] Fetching org.eclipse.equinox.http.service.api_1.2.2.v20231218-2126.jar from https://ca.mirrors.cicku.me/eclipse//releases/2024-12/202412041000/plugins/ (13.09kB)
+[2025-02-25 16:02:41] Fetching org.eclipse.wildwebdeveloper.embedder.node.feature_1.2.0.202411190713.jar from https://ca.mirrors.cicku.me/eclipse//releases/2024-12/202412041000/features/ (12.97kB)
+[2025-02-25 16:02:41] Fetching org.eclipse.e4.ui.ide_3.17.200.v20231201-1637.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (13.28kB)
+[2025-02-25 16:02:41] Fetching org.eclipse.wst.command.env.infopop_1.0.200.v201903050508.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (13.43kB)
+[2025-02-25 16:02:41] Fetching org.osgi.service.provisioning_1.2.0.201505202024.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (13.38kB)
+[2025-02-25 16:02:42] Fetching org.eclipse.mylyn.wikitext.twiki.ui_4.5.0.v20241002-1142.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (13.54kB)
+[2025-02-25 16:02:42] Fetching org.eclipse.mylyn.wikitext.tracwiki.ui_4.5.0.v20241002-1142.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (13.68kB)
+[2025-02-25 16:02:42] Fetching org.eclipse.mylyn.wikitext.asciidoc.ui_4.5.0.v20241002-1142.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (13.68kB)
+[2025-02-25 16:02:42] Fetching org.eclipse.m2e.feature_2.7.0.20241126-1642.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (13.68kB)
+[2025-02-25 16:02:42] Fetching org.eclipse.e4.core.di.annotations_1.8.400.v20240413-1529.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (13.82kB)
+[2025-02-25 16:02:42] Fetching org.opentest4j_1.3.0.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (13.97kB)
+[2025-02-25 16:02:42] Fetching org.eclipse.wst.ws.infopop_1.0.400.v201903050508.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (14.21kB)
+[2025-02-25 16:02:42] Fetching org.eclipse.rcp_4.34.0.v20241120-1800.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (14.28kB)
+[2025-02-25 16:02:42] Fetching org.eclipse.wtp.jee.capabilities_1.0.100.v201903222024.jar from https://ca.mirrors.cicku.me/eclipse//releases/2024-12/202412041000/plugins/ (13.72kB)
+[2025-02-25 16:02:42] Fetching org.osgi.util.position_1.0.1.201505202026.jar from https://ca.mirrors.cicku.me/eclipse//releases/2024-12/202412041000/plugins/ (13.73kB)
+[2025-02-25 16:02:42] Fetching org.eclipse.wtp.javascript.capabilities_1.0.200.v201901071922.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (14.3kB)
+[2025-02-25 16:02:43] Fetching org.eclipse.wst.common.infopop_1.0.301.v202307170218.jar from https://ca.mirrors.cicku.me/eclipse//releases/2024-12/202412041000/plugins/ (13.92kB)
+[2025-02-25 16:02:43] Fetching org.eclipse.wtp.xml.capabilities_1.0.200.v201901071922.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (14.41kB)
+[2025-02-25 16:02:43] Fetching org.eclipse.equinox.jsp.jasper.registry_1.3.0.v20240213-1427.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (14.39kB)
+[2025-02-25 16:02:43] Fetching org.eclipse.egit_7.1.0.202411261347-r.jar from https://ca.mirrors.cicku.me/eclipse//releases/2024-12/202412041000/plugins/ (14.53kB)
+[2025-02-25 16:02:43] Fetching org.eclipse.osgi.util_3.7.300.v20231104-1118.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (14.42kB)
+[2025-02-25 16:02:43] Fetching org.eclipse.jst.ws.creation.ejb.ui_1.0.400.v202308010145.jar from https://ca.mirrors.cicku.me/eclipse//releases/2024-12/202412041000/plugins/ (14.35kB)
+[2025-02-25 16:02:43] Fetching org.eclipse.wtp.web.capabilities_1.0.200.v201901071922.jar from https://ftp2.osuosl.org/pub/eclipse/releases/2024-12/202412041000/plugins/ (14.37kB)
+[2025-02-25 16:02:43] Fetching org.eclipse.jst.ws.infopop_1.0.400.v201903050508.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (14.45kB)
+[2025-02-25 16:02:43] Fetching org.eclipse.mylyn.wikitext.mediawiki.ui_4.5.0.v20241002-1142.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (14.7kB)
+[2025-02-25 16:02:43] Fetching org.osgi.annotation.versioning_1.1.2.202109301733.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (14.72kB)
+[2025-02-25 16:02:43] Fetching org.eclipse.mylyn.wikitext.confluence.ui_4.5.0.v20241002-1142.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (14.96kB)
+[2025-02-25 16:02:44] Fetching jakarta.transaction-api_1.3.3.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (15.03kB)
+[2025-02-25 16:02:44] Fetching org.eclipse.pde.api.tools.annotations_1.4.0.v20240725-0536.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (15.01kB)
+[2025-02-25 16:02:44] Fetching slf4j.simple_2.0.16.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (15.34kB)
+[2025-02-25 16:02:44] Fetching org.eclipse.datatools.enablement.sqlite.dbdefinition_1.3.0.202311071249.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (15.5kB)
+[2025-02-25 16:02:44] Fetching org.eclipse.datatools.enablement.hsqldb.dbdefinition_1.3.0.202311071249.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (15.5kB)
+[2025-02-25 16:02:44] Fetching org.eclipse.equinox.security.win32_1.3.0.v20240419-2334.jar from https://ca.mirrors.cicku.me/eclipse//releases/2024-12/202412041000/plugins/ (15.11kB)
+[2025-02-25 16:02:44] Fetching org.eclipse.wst.validation.infopop_1.0.300.v202007131715.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (15.53kB)
+[2025-02-25 16:02:44] Fetching org.eclipse.wst.dtd.ui.infopop_1.0.400.v201903222120.jar from https://ca.mirrors.cicku.me/eclipse//releases/2024-12/202412041000/plugins/ (15.3kB)
+[2025-02-25 16:02:44] Fetching org.eclipse.mylyn.wikitext.textile.ui_4.5.0.v20241002-1142.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (15.53kB)
+[2025-02-25 16:02:44] Fetching org.eclipse.jst.server.ui.infopop_1.0.500.v201901310132.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (15.52kB)
+[2025-02-25 16:02:44] Fetching org.eclipse.wst.sse.ui.infopop_1.0.300.v201903222120.jar from https://ca.mirrors.cicku.me/eclipse//releases/2024-12/202412041000/plugins/ (15.61kB)
+[2025-02-25 16:02:44] Fetching org.eclipse.m2e.workspace.cli_0.3.1.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (15.56kB)
+[2025-02-25 16:02:45] Fetching org.eclipse.m2e.wtp.overlay.ui_1.6.1.20231024-1618.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (16.18kB)
+[2025-02-25 16:02:45] Fetching org.eclipse.jst.ejb.ui.infopop_1.0.300.v201903222024.jar from https://ca.mirrors.cicku.me/eclipse//releases/2024-12/202412041000/plugins/ (15.73kB)
+[2025-02-25 16:02:45] Fetching org.eclipse.jpt.jpa.db.ui_2.1.201.v201902121834.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (15.89kB)
+[2025-02-25 16:02:45] Fetching org.eclipse.emf_2.9.0.v20230211-1150.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (15.95kB)
+[2025-02-25 16:02:45] Fetching org.eclipse.jst.ws.axis.infopop_1.0.400.v201903050508.jar from https://ca.mirrors.cicku.me/eclipse//releases/2024-12/202412041000/plugins/ (15.73kB)
+[2025-02-25 16:02:45] Fetching org.eclipse.jdt.core.formatterapp_1.2.300.v20241001-0914.jar from https://ca.mirrors.cicku.me/eclipse//releases/2024-12/202412041000/plugins/ (15.78kB)
+[2025-02-25 16:02:45] Fetching org.eclipse.datatools.enablement.finfo_1.8.0.202311071249.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (16.26kB)
+[2025-02-25 16:02:45] Fetching org.eclipse.emf.mapping.ecore.editor_2.9.0.v20230211-1150.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (16.3kB)
+[2025-02-25 16:02:45] Fetching org.eclipse.epp.mpc.core.win32_1.11.0.v20240709-0639.jar from https://ca.mirrors.cicku.me/eclipse//releases/2024-12/202412041000/plugins/ (15.83kB)
+[2025-02-25 16:02:45] Fetching junit-platform-runner_1.11.3.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (16.41kB)
+[2025-02-25 16:02:45] Fetching org.eclipse.datatools.sdk_1.10.0.202312081612.jar from https://ca.mirrors.cicku.me/eclipse//releases/2024-12/202412041000/plugins/ (16.59kB)
+[2025-02-25 16:02:46] Fetching org.eclipse.emf.mapping.ecore_2.9.0.v20230211-1150.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (16.23kB)
+[2025-02-25 16:02:46] Fetching org.bndtools.versioncontrol.ignores.manager_7.0.0.202310060912.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (16.68kB)
+[2025-02-25 16:02:46] Fetching org.eclipse.cdt.core.win32_6.1.100.202402230238.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (16.63kB)
+[2025-02-25 16:02:46] Fetching org.eclipse.m2e.sourcelookup_2.1.0.20241001-1350.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (16.8kB)
+[2025-02-25 16:02:46] Fetching org.eclipse.e4.ui.widgets_1.4.200.v20240801-0837.jar from https://ca.mirrors.cicku.me/eclipse//releases/2024-12/202412041000/plugins/ (16.56kB)
+[2025-02-25 16:02:46] Fetching org.eclipse.mylyn.versions.ui_4.5.0.v20241002-1142.jar from https://ca.mirrors.cicku.me/eclipse//releases/2024-12/202412041000/plugins/ (16.8kB)
+[2025-02-25 16:02:46] Fetching org.eclipse.wst.xsl.saxon_1.1.0.v201901071922.jar from https://ftp2.osuosl.org/pub/eclipse/releases/2024-12/202412041000/plugins/ (16.96kB)
+[2025-02-25 16:02:46] Fetching org.eclipse.jst.jsp.ui.infopop_1.0.200.v201903222120.jar from https://ca.mirrors.cicku.me/eclipse//releases/2024-12/202412041000/plugins/ (16.87kB)
+[2025-02-25 16:02:46] Fetching org.eclipse.mylyn.wikitext.osgi_4.5.0.v20241002-1142.jar from https://ca.mirrors.cicku.me/eclipse//releases/2024-12/202412041000/plugins/ (16.83kB)
+[2025-02-25 16:02:47] Fetching org.eclipse.datatools.enablement.ingres.dbdefinition_1.3.0.202311071249.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (17.2kB)
+[2025-02-25 16:02:47] Fetching org.eclipse.mylyn.tasks.activity.ui_4.5.0.v20241002-1142.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (17.14kB)
+[2025-02-25 16:02:47] Fetching org.eclipse.datatools.sqltools.doc.user.contexts_1.8.0.202311071249.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (17kB)
+[2025-02-25 16:02:47] Fetching org.eclipse.wst.xsl.exslt.core_1.1.0.v201901071922.jar from https://ca.mirrors.cicku.me/eclipse//releases/2024-12/202412041000/plugins/ (17.41kB)
+[2025-02-25 16:02:47] Fetching org.eclipse.datatools.connectivity.dbdefinition.genericJDBC_1.3.0.202311071249.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (17.39kB)
+[2025-02-25 16:02:47] Fetching org.eclipse.mylyn.commons.notifications.core_4.5.0.v20241002-1142.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (17.42kB)
+[2025-02-25 16:02:47] Fetching org.eclipse.jpt.jpa.eclipselink.core.ddlgen_2.2.201.v201902121834.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (17.49kB)
+[2025-02-25 16:02:47] Fetching junit-platform-suite-commons_1.11.3.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (17.6kB)
+[2025-02-25 16:02:47] Fetching org.apache.batik.constants_1.18.0.v20241009-1200.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (17.92kB)
+[2025-02-25 16:02:47] Fetching org.eclipse.datatools.enablement.sybase.asa.dbdefinition_1.3.0.202311071249.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (17.66kB)
+[2025-02-25 16:02:47] Fetching org.eclipse.team.genericeditor.diff.extension_1.2.400.v20240413-1529.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (18.14kB)
+[2025-02-25 16:02:48] Fetching org.eclipse.jgit_7.1.0.202411261347-r.jar from https://ca.mirrors.cicku.me/eclipse//releases/2024-12/202412041000/features/ (17.53kB)
+[2025-02-25 16:02:48] Fetching org.eclipse.jgit.ssh.apache_7.1.0.202411261347-r.jar from https://ca.mirrors.cicku.me/eclipse//releases/2024-12/202412041000/features/ (17.57kB)
+[2025-02-25 16:02:48] Fetching org.eclipse.jgit.gpg.bc_7.1.0.202411261347-r.jar from https://ca.mirrors.cicku.me/eclipse//releases/2024-12/202412041000/features/ (17.55kB)
+[2025-02-25 16:02:48] Fetching org.eclipse.jgit.http.apache_7.1.0.202411261347-r.jar from https://ca.mirrors.cicku.me/eclipse//releases/2024-12/202412041000/features/ (17.57kB)
+[2025-02-25 16:02:48] Fetching org.eclipse.e4.ui.di_1.5.400.v20240321-1245.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (18.22kB)
+[2025-02-25 16:02:48] Fetching org.eclipse.buildship.compat_3.1.10.v20240802-1314.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (18.29kB)
+[2025-02-25 16:02:48] Fetching org.osgi.util.xml_1.0.2.202109301733.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (18.3kB)
+[2025-02-25 16:02:48] Fetching org.bndtools.templates.template_7.0.0.202310060912.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (18.39kB)
+[2025-02-25 16:02:48] Fetching org.eclipse.datatools.enablement.sybase.ase.dbdefinition_1.3.0.202311071249.jar from https://ftp2.osuosl.org/pub/eclipse/releases/2024-12/202412041000/plugins/ (18.14kB)
+[2025-02-25 16:02:48] Fetching org.eclipse.jst.ws.consumption.infopop_1.0.400.v201903050508.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (18.54kB)
+[2025-02-25 16:02:48] Fetching org.eclipse.datatools.enablement.postgresql.dbdefinition_1.3.0.202311071249.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (18.45kB)
+[2025-02-25 16:02:48] Fetching org.eclipse.datatools.sqltools.db.derby.ui_1.3.0.202311071249.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (18.6kB)
+[2025-02-25 16:02:49] Fetching org.eclipse.userstorage_1.2.0.v20210517-0327.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (19kB)
+[2025-02-25 16:02:49] Fetching org.glassfish.hk2.osgi-resource-locator_1.0.3.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (19.02kB)
+[2025-02-25 16:02:49] Fetching org.eclipse.wst.jsdt.web.support.jsp_1.1.200.v202210260359.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (18.46kB)
+[2025-02-25 16:02:49] Fetching org.eclipse.buildship.branding_3.1.10.v20240802-1314.jar from https://ca.mirrors.cicku.me/eclipse//releases/2024-12/202412041000/plugins/ (18.79kB)
+[2025-02-25 16:02:49] Fetching org.eclipse.datatools.oda.cshelp_1.5.0.202311071249.jar from https://ca.mirrors.cicku.me/eclipse//releases/2024-12/202412041000/plugins/ (18.95kB)
+[2025-02-25 16:02:49] Fetching org.eclipse.wst.xml.xpath2_1.1.0.v201901071922.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (19.63kB)
+[2025-02-25 16:02:49] Fetching org.osgi.service.prefs_1.1.2.202109301733.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (19.69kB)
+[2025-02-25 16:02:49] Fetching org.eclipse.m2e.archetype.catalog_3.2.1.2.jar from https://ca.mirrors.cicku.me/eclipse//releases/2024-12/202412041000/plugins/ (19.15kB)
+[2025-02-25 16:02:49] Fetching org.eclipse.datatools.enablement.postgresql.ui_1.3.0.202311071249.jar from https://ca.mirrors.cicku.me/eclipse//releases/2024-12/202412041000/plugins/ (19.46kB)
+[2025-02-25 16:02:49] Fetching org.eclipse.wst.xsl_1.2.0.v201901071922.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (19.55kB)
+[2025-02-25 16:02:49] Fetching org.eclipse.wtp.epp.package.capabilities_1.3.0.v201902122017.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (19.75kB)
+[2025-02-25 16:02:49] Fetching org.eclipse.jpt.jpa.branding_3.4.1.v201902121834.jar from https://ca.mirrors.cicku.me/eclipse//releases/2024-12/202412041000/plugins/ (19.84kB)
+[2025-02-25 16:02:49] Fetching org.eclipse.swt_3.128.0.v20241113-2009.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (19.82kB)
+[2025-02-25 16:02:49] Fetching org.eclipse.jst.servlet.ui.infopop_1.0.500.v201903222024.jar from https://ftp2.osuosl.org/pub/eclipse/releases/2024-12/202412041000/plugins/ (19.7kB)
+[2025-02-25 16:02:50] Fetching org.eclipse.jpt.jaxb.branding_1.4.1.v201902121834.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (19.85kB)
+[2025-02-25 16:02:50] Fetching org.osgi.service.device_1.1.1.202109301733.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (19.88kB)
+[2025-02-25 16:02:50] Fetching org.eclipse.jpt.jpa.eclipselink.branding_3.4.1.v201902121834.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (19.96kB)
+[2025-02-25 16:02:50] Fetching org.eclipse.jpt.common.branding_1.4.1.v201902121834.jar from https://ca.mirrors.cicku.me/eclipse//releases/2024-12/202412041000/plugins/ (19.86kB)
+[2025-02-25 16:02:50] Fetching org.eclipse.rcp_root_4.34.0.v20241120-1800 from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/binary/ (20.26kB)
+[2025-02-25 16:02:50] Fetching org.eclipse.ecf.ssl_1.3.100.v20240812-1535.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (20.28kB)
+[2025-02-25 16:02:50] Fetching org.eclipse.m2e.binaryproject.ui_2.1.0.20241001-1350.jar from https://ca.mirrors.cicku.me/eclipse//releases/2024-12/202412041000/plugins/ (20.41kB)
+[2025-02-25 16:02:50] Fetching org.eclipse.jpt.common.eclipselink.branding_1.3.101.v201902121834.jar from https://ca.mirrors.cicku.me/eclipse//releases/2024-12/202412041000/plugins/ (19.97kB)
+[2025-02-25 16:02:50] Fetching org.eclipse.datatools.enablement.oracle_1.3.0.202311071249.jar from https://ca.mirrors.cicku.me/eclipse//releases/2024-12/202412041000/plugins/ (20.1kB)
+[2025-02-25 16:02:50] Fetching org.eclipse.datatools.sqltools.db.generic.ui_1.3.0.202311071249.jar from https://ca.mirrors.cicku.me/eclipse//releases/2024-12/202412041000/plugins/ (20.18kB)
+[2025-02-25 16:02:51] Fetching org.eclipse.jpt.jaxb.eclipselink.branding_1.4.101.v201902121834.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (19.97kB)
+[2025-02-25 16:02:51] Fetching org.eclipse.datatools.intro_1.15.0.202311071249.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (20.65kB)
+[2025-02-25 16:02:51] Fetching org.eclipse.datatools.enablement.sdk.feature_1.15.0.202311071249.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (20.66kB)
+[2025-02-25 16:02:51] Fetching org.eclipse.datatools.connectivity.oda.feature_1.15.0.202311071249.jar from https://ca.mirrors.cicku.me/eclipse//releases/2024-12/202412041000/features/ (20.75kB)
+[2025-02-25 16:02:51] Fetching org.eclipse.datatools.connectivity.oda.designer.feature_1.15.0.202311071249.jar from https://ca.mirrors.cicku.me/eclipse//releases/2024-12/202412041000/features/ (20.75kB)
+[2025-02-25 16:02:51] Fetching org.eclipse.datatools.enablement.sap.maxdb.dbdefinition_1.3.0.202311071249.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (20.28kB)
+[2025-02-25 16:02:51] Fetching org.eclipse.datatools.sqldevtools.ddl.feature_1.15.0.202311071249.jar from https://ftp2.osuosl.org/pub/eclipse/releases/2024-12/202412041000/features/ (20.69kB)
+[2025-02-25 16:02:51] Fetching org.eclipse.datatools.enablement.oda.feature_1.15.0.202311071249.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (20.78kB)
+[2025-02-25 16:02:51] Fetching org.eclipse.datatools.enablement.jdt.feature_1.15.0.202311071249.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (20.75kB)
+[2025-02-25 16:02:51] Fetching org.eclipse.datatools.sqldevtools.schemaobjecteditor.feature_1.15.0.202311071249.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (20.78kB)
+[2025-02-25 16:02:52] Fetching org.eclipse.datatools.enablement.feature_1.15.0.202311071249.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (20.81kB)
+[2025-02-25 16:02:52] Fetching org.eclipse.datatools.enablement.oracle.feature_1.15.0.202311071249.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (20.81kB)
+[2025-02-25 16:02:52] Fetching org.eclipse.datatools.common.doc.user_1.15.0.202311071249.jar from https://ca.mirrors.cicku.me/eclipse//releases/2024-12/202412041000/features/ (20.78kB)
+[2025-02-25 16:02:52] Fetching org.eclipse.datatools.enablement.jdbc.feature_1.15.0.202311071249.jar from https://ca.mirrors.cicku.me/eclipse//releases/2024-12/202412041000/features/ (20.79kB)
+[2025-02-25 16:02:52] Fetching org.eclipse.datatools.sqldevtools.parsers.feature_1.16.0.202311071638.jar from https://ca.mirrors.cicku.me/eclipse//releases/2024-12/202412041000/features/ (20.8kB)
+[2025-02-25 16:02:52] Fetching org.eclipse.datatools.sdk.feature_1.16.1.202403060734.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (20.83kB)
+[2025-02-25 16:02:52] Fetching org.eclipse.datatools.enablement.mysql.feature_1.15.0.202311071249.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (20.82kB)
+[2025-02-25 16:02:52] Fetching org.eclipse.datatools.enablement.oda.designer.feature_1.15.0.202311071249.jar from https://ca.mirrors.cicku.me/eclipse//releases/2024-12/202412041000/features/ (20.81kB)
+[2025-02-25 16:02:52] Fetching org.eclipse.datatools.enablement.hsqldb.feature_1.15.0.202311071249.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (20.82kB)
+[2025-02-25 16:02:52] Fetching org.eclipse.datatools.connectivity.doc.user_1.15.0.202311071249.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (20.83kB)
+[2025-02-25 16:02:53] Fetching org.eclipse.datatools.enablement.sap.feature_1.15.0.202311071249.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (20.83kB)
+[2025-02-25 16:02:53] Fetching org.eclipse.datatools.modelbase.feature_1.15.0.202311071249.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (20.84kB)
+[2025-02-25 16:02:54] Fetching org.eclipse.datatools.sqldevtools.data.feature_1.15.0.202311071249.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (20.84kB)
+[2025-02-25 16:02:55] Fetching org.eclipse.datatools.enablement.postgresql.feature_1.15.0.202311071249.jar from https://ftp2.osuosl.org/pub/eclipse/releases/2024-12/202412041000/features/ (20.82kB)
+[2025-02-25 16:02:55] Fetching org.eclipse.datatools.modelbase.feature_1.15.0.202311071249.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/
+[2025-02-25 16:02:55] Fetching org.eclipse.datatools.enablement.msft.feature_1.16.0.202311071307.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (20.84kB)
+[2025-02-25 16:02:56] Fetching org.eclipse.datatools.enablement.apache.derby.feature_1.15.0.202311071249.jar from https://ca.mirrors.cicku.me/eclipse//releases/2024-12/202412041000/features/ (20.85kB)
+[2025-02-25 16:02:56] Fetching org.eclipse.datatools.connectivity.oda.designer.core.feature_1.16.0.202311071345.jar from https://ca.mirrors.cicku.me/eclipse//releases/2024-12/202412041000/features/ (20.85kB)
+[2025-02-25 16:02:56] Fetching org.eclipse.datatools.enablement.ingres.feature_1.15.0.202311071249.jar from https://ca.mirrors.cicku.me/eclipse//releases/2024-12/202412041000/features/ (20.87kB)
+[2025-02-25 16:02:56] Fetching org.eclipse.datatools.enablement.apache.derby.feature_1.15.0.202311071249.jar from https://ca.mirrors.cicku.me/eclipse//releases/2024-12/202412041000/features/ (20.85kB)
+[2025-02-25 16:02:56] Fetching org.eclipse.datatools.sqltools.doc.user_1.15.0.202311071249.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (20.88kB)
+[2025-02-25 16:02:57] Fetching org.eclipse.datatools.enablement.sqlite.feature_1.15.0.202311071249.jar from https://ftp2.osuosl.org/pub/eclipse/releases/2024-12/202412041000/features/ (20.87kB)
+[2025-02-25 16:02:58] Fetching org.eclipse.datatools.enablement.apache.derby.feature_1.15.0.202311071249.jar from https://ca.mirrors.cicku.me/eclipse//releases/2024-12/202412041000/features/
+[2025-02-25 16:02:58] Fetching org.eclipse.datatools.doc.user_1.16.0.202311071249.jar from https://ca.mirrors.cicku.me/eclipse//releases/2024-12/202412041000/features/ (20.85kB)
+[2025-02-25 16:02:58] Fetching org.eclipse.datatools.connectivity.oda.designer.core.feature_1.16.0.202311071345.jar from https://ca.mirrors.cicku.me/eclipse//releases/2024-12/202412041000/features/ (20.85kB)
+[2025-02-25 16:02:58] Fetching org.eclipse.datatools.doc.user_1.16.0.202311071249.jar from https://ca.mirrors.cicku.me/eclipse//releases/2024-12/202412041000/features/ (20.85kB)
+[2025-02-25 16:02:58] Fetching org.eclipse.datatools.sqldevtools.results.feature_1.15.0.202311071249.jar from https://ftp2.osuosl.org/pub/eclipse/releases/2024-12/202412041000/features/ (20.88kB)
+[2025-02-25 16:02:58] Fetching org.eclipse.datatools.connectivity.feature_1.16.0.202311071345.jar from https://ftp2.osuosl.org/pub/eclipse/releases/2024-12/202412041000/features/ (20.89kB)
+[2025-02-25 16:02:58] Fetching org.eclipse.datatools.enablement.sybase.feature_1.15.0.202311071249.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (20.92kB)
+[2025-02-25 16:02:59] Fetching org.eclipse.datatools.sqldevtools.sqlbuilder.feature_1.16.0.202403060703.jar from https://ftp2.osuosl.org/pub/eclipse/releases/2024-12/202412041000/features/ (20.93kB)
+[2025-02-25 16:02:59] Fetching org.eclipse.datatools.sqldevtools.ddlgen.feature_1.16.0.202403060703.jar from https://ca.mirrors.cicku.me/eclipse//releases/2024-12/202412041000/features/ (20.91kB)
+[2025-02-25 16:02:59] Fetching org.eclipse.datatools.enablement.mysql.ui_1.3.0.202311071249.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (20.89kB)
+[2025-02-25 16:02:59] Fetching org.eclipse.datatools.sqldevtools.ddlgen.feature_1.16.0.202403060703.jar from https://ca.mirrors.cicku.me/eclipse//releases/2024-12/202412041000/features/ (20.91kB)
+[2025-02-25 16:02:59] Fetching org.eclipse.datatools.sqldevtools.feature_1.16.0.202403060703.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (21.04kB)
+[2025-02-25 16:02:59] Fetching org.eclipse.equinox.p2.updatechecker_1.4.300.v20240514-1422.jar from https://mirrors.jevincanders.net/eclipse/releases/2024-12/202412041000/plugins/ (20.94kB)
+[2025-02-25 16:02:59] Fetching org.eclipse.datatools.sqldevtools.feature_1.16.0.202403060703.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (21.04kB)
+[2025-02-25 16:03:00] Fetching org.eclipse.datatools.enablement.ibm.feature_1.15.0.202311071249.jar from https://ftp2.osuosl.org/pub/eclipse/releases/2024-12/202412041000/features/ (20.94kB)
+[2025-02-25 16:03:00] Fetching org.eclipse.datatools.enablement.ibm.informix_1.3.0.202311071249.jar from https://ftp2.osuosl.org/pub/eclipse/releases/2024-12/202412041000/plugins/ (21.11kB)
+[2025-02-25 16:03:00] Fetching org.apache.batik.i18n_1.18.0.v20241009-1200.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (21.15kB)
+[2025-02-25 16:03:00] Fetching org.eclipse.datatools.enablement.sqlite.feature_1.15.0.202311071249.jar from https://ftp2.osuosl.org/pub/eclipse/releases/2024-12/202412041000/features/
+[2025-02-25 16:03:00] Fetching org.eclipse.m2e.wtp.feature_1.6.1.20231024-1618.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (21.48kB)
+[2025-02-25 16:03:00] Fetching org.eclipse.datatools.enablement.sap.maxdb.ui_1.3.0.202311071249.jar from https://ftp2.osuosl.org/pub/eclipse/releases/2024-12/202412041000/plugins/ (21.33kB)
+[2025-02-25 16:03:00] Fetching org.eclipse.buildship_3.1.10.v20240802-1314.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (21.82kB)
+[2025-02-25 16:03:01] Fetching org.eclipse.jst.j2ee.infopop_1.0.300.v201903222024.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (21.67kB)
+[2025-02-25 16:03:01] Fetching org.eclipse.tm4e.language_pack.feature_0.14.0.202410282056.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (21.83kB)
+[2025-02-25 16:03:01] Fetching org.eclipse.m2e.wtp.jpa.feature_1.6.1.20231024-1618.jar from https://mirrors.jevincanders.net/eclipse/releases/2024-12/202412041000/features/ (21.46kB)
+[2025-02-25 16:03:01] Fetching org.eclipse.jdt.bcoview.feature_1.2.600.v20240925-0753.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (21.96kB)
+[2025-02-25 16:03:02] Fetching org.eclipse.m2e.wtp.jsf.feature_1.6.1.20231024-1618.jar from https://mirrors.jevincanders.net/eclipse/releases/2024-12/202412041000/features/ (21.47kB)
+[2025-02-25 16:03:02] Fetching org.eclipse.m2e.wtp.jaxrs.feature_1.6.1.20231024-1618.jar from https://mirrors.jevincanders.net/eclipse/releases/2024-12/202412041000/features/ (21.47kB)
+[2025-02-25 16:03:02] Fetching org.eclipse.datatools.connectivity.db.generic_1.3.0.202311071249.jar from https://mirrors.jevincanders.net/eclipse/releases/2024-12/202412041000/plugins/ (21.92kB)
+[2025-02-25 16:03:02] Fetching org.eclipse.m2e.lemminx.feature_2.0.700.20240928-0605.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (22.13kB)
+[2025-02-25 16:03:02] Fetching org.eclipse.equinox.p2.user.ui_2.4.2600.v20241022-1057.jar from https://ftp2.osuosl.org/pub/eclipse/releases/2024-12/202412041000/features/ (22.05kB)
+[2025-02-25 16:03:02] Fetching org.eclipse.equinox.p2.rcp.feature_1.4.2600.v20241019-1812.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (22.15kB)
+[2025-02-25 16:03:02] Fetching org.eclipse.equinox.p2.discovery.feature_1.3.600.v20240918-1902.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (22.16kB)
+[2025-02-25 16:03:03] Fetching org.eclipse.equinox.p2.extras.feature_1.4.2600.v20241019-1812.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (22.2kB)
+[2025-02-25 16:03:03] Fetching org.eclipse.rcp_4.34.0.v20241120-1800.jar from https://ftp2.osuosl.org/pub/eclipse/releases/2024-12/202412041000/features/ (22.19kB)
+[2025-02-25 16:03:03] Fetching org.eclipse.mylyn.reviews.feature_4.5.0.v20241002-1142.jar from https://ftp2.osuosl.org/pub/eclipse/releases/2024-12/202412041000/features/ (22.21kB)
+[2025-02-25 16:03:03] Fetching org.eclipse.m2e.pde.feature_2.3.200.20241003-0434.jar from https://ftp2.osuosl.org/pub/eclipse/releases/2024-12/202412041000/features/ (22.21kB)
+[2025-02-25 16:03:03] Fetching org.eclipse.datatools.sqltools.doc.user_1.15.0.202311071249.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (20.88kB)
+[2025-02-25 16:03:03] Fetching org.eclipse.emf.common.ui_2.23.0.v20240911-1027.jar from https://ftp2.osuosl.org/pub/eclipse/releases/2024-12/202412041000/features/ (22.21kB)
+[2025-02-25 16:03:03] Fetching org.eclipse.emf.edit_2.23.0.v20240604-0832.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (22.22kB)
+[2025-02-25 16:03:04] Fetching org.eclipse.emf.mapping_2.16.0.v20240604-0832.jar from https://ftp2.osuosl.org/pub/eclipse/releases/2024-12/202412041000/features/ (22.22kB)
+[2025-02-25 16:03:04] Fetching org.eclipse.emf.databinding_1.12.0.v20240604-0832.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (22.24kB)
+[2025-02-25 16:03:04] Fetching org.eclipse.emf.edit.ui_2.27.0.v20241015-0644.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (22.24kB)
+[2025-02-25 16:03:04] Fetching org.eclipse.emf.ecore.editor_2.20.0.v20240604-0832.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (22.24kB)
+[2025-02-25 16:03:04] Fetching org.eclipse.help_2.3.2000.v20241120-1800.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (22.26kB)
+[2025-02-25 16:03:04] Fetching org.eclipse.egit_7.1.0.202411261347-r.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (22.27kB)
+[2025-02-25 16:03:04] Fetching org.eclipse.emf.mapping.ui_2.17.0.v20240911-1027.jar from https://ftp2.osuosl.org/pub/eclipse/releases/2024-12/202412041000/features/ (22.25kB)
+[2025-02-25 16:03:04] Fetching org.eclipse.emf.common_2.33.0.v20240911-1027.jar from https://ftp2.osuosl.org/pub/eclipse/releases/2024-12/202412041000/features/ (22.25kB)
+[2025-02-25 16:03:04] Fetching org.eclipse.emf.ecore.edit_2.17.0.v20240604-0832.jar from https://ftp2.osuosl.org/pub/eclipse/releases/2024-12/202412041000/features/ (22.25kB)
+[2025-02-25 16:03:04] Fetching org.eclipse.emf.codegen.ecore.ui_2.40.0.v20240911-1442.jar from https://ftp2.osuosl.org/pub/eclipse/releases/2024-12/202412041000/features/ (22.26kB)
+[2025-02-25 16:03:05] Fetching org.eclipse.emf.ecore_2.39.0.v20241018-1213.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (22.31kB)
+[2025-02-25 16:03:05] Fetching org.eclipse.emf.mapping.ecore_2.15.0.v20240604-0832.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (22.31kB)
+[2025-02-25 16:03:05] Fetching org.eclipse.emf.codegen.ui_2.27.0.v20240911-1027.jar from https://mirrors.jevincanders.net/eclipse/releases/2024-12/202412041000/features/ (22.27kB)
+[2025-02-25 16:03:05] Fetching org.eclipse.emf.codegen_2.26.0.v20240911-1027.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (22.28kB)
+[2025-02-25 16:03:05] Fetching org.eclipse.emf.databinding.edit_1.12.0.v20240604-0832.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (22.27kB)
+[2025-02-25 16:03:06] Fetching org.eclipse.mylyn.github.feature_6.6.0.v20241002-1142.jar from https://ftp2.osuosl.org/pub/eclipse/releases/2024-12/202412041000/features/ (22.32kB)
+[2025-02-25 16:03:06] Fetching org.eclipse.emf.codegen.ecore_2.40.0.v20240911-1442.jar from https://ftp2.osuosl.org/pub/eclipse/releases/2024-12/202412041000/features/ (22.31kB)
+[2025-02-25 16:03:06] Fetching org.eclipse.emf.converter_2.22.0.v20240911-1442.jar from https://ftp2.osuosl.org/pub/eclipse/releases/2024-12/202412041000/features/ (22.34kB)
+[2025-02-25 16:03:06] Fetching org.eclipse.jdt_3.20.0.v20241120-1800.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (22.37kB)
+[2025-02-25 16:03:07] Fetching org.eclipse.jetty.ee8.plus_12.0.15.jar from https://ftp2.osuosl.org/pub/eclipse/releases/2024-12/202412041000/plugins/ (22.34kB)
+[2025-02-25 16:03:07] Fetching org.eclipse.draw2d_3.22.0.202411181923.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (22.37kB)
+[2025-02-25 16:03:07] Fetching org.eclipse.emf.mapping.ecore.editor_2.17.0.v20240604-0832.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (22.35kB)
+[2025-02-25 16:03:07] Fetching org.eclipse.emf_2.40.0.v20241018-1213.jar from https://mirrors.jevincanders.net/eclipse/releases/2024-12/202412041000/features/ (22.39kB)
+[2025-02-25 16:03:07] Fetching org.eclipse.pde_3.16.100.v20241120-1800.jar from https://mirrors.jevincanders.net/eclipse/releases/2024-12/202412041000/features/ (22.43kB)
+[2025-02-25 16:03:07] Fetching org.eclipse.gef_3.22.0.202411181923.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (22.53kB)
+[2025-02-25 16:03:07] Fetching org.eclipse.jst.enterprise_ui.feature_3.36.0.v202409282008.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (22.37kB)
+[2025-02-25 16:03:07] Fetching org.eclipse.equinox.p2.core.feature_1.7.400.v20241019-1812.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (22.54kB)
+[2025-02-25 16:03:07] Fetching org.eclipse.tm.terminal.control.feature_11.6.1.202407022003.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (22.54kB)
+[2025-02-25 16:03:08] Fetching org.eclipse.tm.terminal.connector.ssh.feature_11.6.1.202406241230.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (22.59kB)
+[2025-02-25 16:03:08] Fetching org.eclipse.tm.terminal.view.feature_11.6.1.202406241230.jar from https://mirrors.jevincanders.net/eclipse/releases/2024-12/202412041000/features/ (22.56kB)
+[2025-02-25 16:03:08] Fetching org.eclipse.tm4e.feature_0.14.0.202410282056.jar from https://mirrors.jevincanders.net/eclipse/releases/2024-12/202412041000/features/ (22.57kB)
+[2025-02-25 16:03:08] Fetching org.eclipse.datatools.connectivity.doc.user.contexts_1.8.0.202311071249.jar from https://ftp2.osuosl.org/pub/eclipse/releases/2024-12/202412041000/plugins/ (22.57kB)
+[2025-02-25 16:03:08] Fetching org.eclipse.jpt.jaxb.core.schemagen_1.1.202.v202104080213.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (22.63kB)
+[2025-02-25 16:03:08] Fetching org.eclipse.wst.xml.ui.infopop_1.0.400.v201903222120.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (22.67kB)
+[2025-02-25 16:03:08] Fetching org.eclipse.wst.xml.xpath2.processor.feature_2.1.0.v202409140028.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (22.71kB)
+[2025-02-25 16:03:08] Fetching org.eclipse.tm.terminal.feature_11.6.1.202406241230.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (22.71kB)
+[2025-02-25 16:03:08] Fetching org.eclipse.wst.xsl.exslt.ui_1.1.0.v201901071922.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (22.69kB)
+[2025-02-25 16:03:08] Fetching org.eclipse.m2e.logback.feature_2.7.0.20241001-1350.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (22.72kB)
+[2025-02-25 16:03:09] Fetching org.eclipse.mylyn.versions.feature_4.5.0.v20241002-1142.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (22.75kB)
+[2025-02-25 16:03:09] Fetching org.eclipse.mylyn.monitor.feature_4.5.0.v20241002-1142.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (22.73kB)
+[2025-02-25 16:03:09] Fetching org.eclipse.mylyn.commons.feature_4.5.0.v20241002-1142.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (22.77kB)
+[2025-02-25 16:03:09] Fetching org.eclipse.datatools.enablement.ibm.db2.iseries_1.3.0.202311071249.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (22.75kB)
+[2025-02-25 16:03:09] Fetching org.eclipse.mylyn.commons.identity.feature_4.5.0.v20241002-1142.jar from https://mirrors.jevincanders.net/eclipse/releases/2024-12/202412041000/features/ (22.72kB)
+[2025-02-25 16:03:09] Fetching org.eclipse.mylyn.team.feature_4.5.0.v20241002-1142.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (22.78kB)
+[2025-02-25 16:03:09] Fetching org.eclipse.mylyn.commons.notifications.feature_4.5.0.v20241002-1142.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (22.79kB)
+[2025-02-25 16:03:09] Fetching org.eclipse.datatools.help_1.8.0.202311071249.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (22.78kB)
+[2025-02-25 16:03:09] Fetching org.eclipse.mylyn.git.feature_4.5.0.v20241002-1142.jar from https://mirrors.jevincanders.net/eclipse/releases/2024-12/202412041000/features/ (22.77kB)
+[2025-02-25 16:03:09] Fetching org.eclipse.mylyn.builds.feature_4.5.0.v20241002-1142.jar from https://mirrors.jevincanders.net/eclipse/releases/2024-12/202412041000/features/ (22.77kB)
+[2025-02-25 16:03:09] Fetching org.eclipse.mylyn.ide.feature_4.5.0.v20241002-1142.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (22.8kB)
+[2025-02-25 16:03:10] Fetching org.eclipse.mylyn.pde.feature_4.5.0.v20241002-1142.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (22.82kB)
+[2025-02-25 16:03:10] Fetching org.eclipse.mylyn.jenkins.feature_4.5.0.v20241002-1142.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (22.82kB)
+[2025-02-25 16:03:10] Fetching org.eclipse.mylyn.context.feature_4.5.0.v20241002-1142.jar from https://ftp2.osuosl.org/pub/eclipse/releases/2024-12/202412041000/features/ (22.8kB)
+[2025-02-25 16:03:10] Fetching org.eclipse.mylyn.jenkins.feature_4.5.0.v20241002-1142.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (22.82kB)
+[2025-02-25 16:03:10] Fetching org.eclipse.mylyn.context.feature_4.5.0.v20241002-1142.jar from https://ftp2.osuosl.org/pub/eclipse/releases/2024-12/202412041000/features/ (22.8kB)
+[2025-02-25 16:03:10] Fetching org.eclipse.mylyn.commons.activity.feature_4.5.0.v20241002-1142.jar from https://mirrors.jevincanders.net/eclipse/releases/2024-12/202412041000/features/ (22.79kB)
+[2025-02-25 16:03:10] Fetching org.eclipse.mylyn.commons.repositories.feature_4.5.0.v20241002-1142.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (22.83kB)
+[2025-02-25 16:03:10] Fetching org.eclipse.ecf.core.ssl.feature_1.1.600.v20240812-1535.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (22.87kB)
+[2025-02-25 16:03:10] Fetching org.eclipse.mylyn.tasks.feature_4.5.0.v20241002-1142.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (22.88kB)
+[2025-02-25 16:03:10] Fetching org.eclipse.mylyn.wikitext.feature_4.5.0.v20241022-1702.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (22.89kB)
+[2025-02-25 16:03:10] Fetching org.eclipse.mylyn.egit.feature_4.5.0.v20241002-1142.jar from https://mirrors.jevincanders.net/eclipse/releases/2024-12/202412041000/features/ (22.86kB)
+[2025-02-25 16:03:10] Fetching org.eclipse.ecf.core.feature_1.6.2.v20240812-1535.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (22.9kB)
+[2025-02-25 16:03:10] Fetching org.eclipse.mylyn.jdt.feature_4.5.0.v20241002-1142.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (22.9kB)
+[2025-02-25 16:03:10] Fetching org.eclipse.tips.feature_0.4.500.v20241014-2054.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (22.92kB)
+[2025-02-25 16:03:10] Fetching org.osgi.util.function_1.2.0.202109301733.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (23.09kB)
+[2025-02-25 16:03:11] Fetching org.eclipse.platform_4.34.0.v20241120-1800.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (23.13kB)
+[2025-02-25 16:03:11] Fetching org.eclipse.wst.xsl.feature_1.3.1800.v202409142305.jar from https://ftp2.osuosl.org/pub/eclipse/releases/2024-12/202412041000/features/ (22.96kB)
+[2025-02-25 16:03:11] Fetching org.eclipse.mylyn.commons.identity.ui_4.5.0.v20241002-1142.jar from https://ftp2.osuosl.org/pub/eclipse/releases/2024-12/202412041000/plugins/ (23.06kB)
+[2025-02-25 16:03:11] Fetching org.eclipse.e4.ui.workbench3_0.17.400.v20240321-1245.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (23.24kB)
+[2025-02-25 16:03:11] Fetching org.eclipse.datatools.connectivity.apache.derby.dbdefinition_1.3.0.202311071249.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (23.12kB)
+[2025-02-25 16:03:11] Fetching org.eclipse.pde.junit.runtime_3.8.100.v20240130-1723.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (23.26kB)
+[2025-02-25 16:03:11] Fetching javax.jws_2.0.0.v201005080400.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (23.27kB)
+[2025-02-25 16:03:11] Fetching org.eclipse.tips.json_0.3.400.v20240525-0701.jar from https://ftp2.osuosl.org/pub/eclipse/releases/2024-12/202412041000/plugins/ (23.36kB)
+[2025-02-25 16:03:11] Fetching org.eclipse.datatools.enablement.ibm.db2.zseries_1.3.0.202311071249.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (23.42kB)
+[2025-02-25 16:03:12] Fetching org.eclipse.e4.rcp_4.34.0.v20241113-2009.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (23.4kB)
+[2025-02-25 16:03:12] Fetching org.eclipse.epp.mpc_1.11.0.v20240709-1650.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (23.44kB)
+[2025-02-25 16:03:12] Fetching org.eclipse.mylyn.tasks.activity.core_4.5.0.v20241002-1142.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (23.48kB)
+[2025-02-25 16:03:12] Fetching org.eclipse.epp.mpc_1.11.0.v20240709-1650.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (23.44kB)
+[2025-02-25 16:03:12] Fetching org.eclipse.mylyn.tasks.activity.core_4.5.0.v20241002-1142.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (23.48kB)
+[2025-02-25 16:03:12] Fetching org.eclipse.jpt.jaxb.eclipselink.core.schemagen_1.2.202.v202104080213.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (23.51kB)
+[2025-02-25 16:03:12] Fetching org.eclipse.eclemma.feature_3.1.9.202405260028.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (23.53kB)
+[2025-02-25 16:03:12] Fetching org.eclipse.m2e.logback_2.7.0.20241001-1350.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (23.69kB)
+[2025-02-25 16:03:12] Fetching org.eclipse.datatools.doc.user_1.15.0.202311071249.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (23.78kB)
+[2025-02-25 16:03:12] Fetching org.eclipse.m2e.archetype.descriptor_3.2.1.2.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (23.89kB)
+[2025-02-25 16:03:13] Fetching jakarta.interceptor-api_1.2.5.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (24.45kB)
+[2025-02-25 16:03:13] Fetching jakarta.annotation-api_1.3.5.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (24.47kB)
+[2025-02-25 16:03:13] Fetching org.eclipse.datatools.enablement.ibm.db2.iseries.dbdefinition_1.3.0.202311071249.jar from https://ftp2.osuosl.org/pub/eclipse/releases/2024-12/202412041000/plugins/ (24.07kB)
+[2025-02-25 16:03:13] Fetching org.apache.httpcomponents.client5.httpclient5-win_5.2.3.v20231203-1619.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (24.6kB)
+[2025-02-25 16:03:13] Fetching org.eclipse.mylyn.jenkins.ui_4.5.0.v20241002-1142.jar from https://ftp2.osuosl.org/pub/eclipse/releases/2024-12/202412041000/plugins/ (24.46kB)
+[2025-02-25 16:03:13] Fetching org.osgi.service.repository_1.1.0.201505202024.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (24.84kB)
+[2025-02-25 16:03:13] Fetching org.eclipse.mylyn.git.ui_4.5.0.v20241002-1142.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (24.81kB)
+[2025-02-25 16:03:13] Fetching org.eclipse.jst.ws.jaxb.core_1.1.0.v202308010229.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (24.55kB)
+[2025-02-25 16:03:13] Fetching org.eclipse.datatools.enablement.sap.maxdb_1.3.0.202311071249.jar from https://ftp2.osuosl.org/pub/eclipse/releases/2024-12/202412041000/plugins/ (25.21kB)
+[2025-02-25 16:03:13] Fetching org.eclipse.m2e.binaryproject_2.2.0.20241001-1350.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (24.98kB)
+[2025-02-25 16:03:13] Fetching org.eclipse.wst.xml.xpath2.wtptypes_2.1.0.v202307260701.jar from https://ftp2.osuosl.org/pub/eclipse/releases/2024-12/202412041000/plugins/ (24.97kB)
+[2025-02-25 16:03:13] Fetching org.eclipse.datatools.enablement.hsqldb_1.3.0.202311071249.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (25.36kB)
+[2025-02-25 16:03:13] Fetching org.eclipse.mylyn.git.core_4.5.0.v20241002-1142.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (25.38kB)
+[2025-02-25 16:03:14] Fetching junit-platform-suite-api_1.11.3.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (25.53kB)
+[2025-02-25 16:03:14] Fetching org.eclipse.epp.mpc.ui.css_1.11.0.v20240709-0639.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (25.64kB)
+[2025-02-25 16:03:14] Fetching org.eclipse.m2e.profiles.core_2.2.0.20241001-1350.jar from https://ftp2.osuosl.org/pub/eclipse/releases/2024-12/202412041000/plugins/ (25.23kB)
+[2025-02-25 16:03:14] Fetching org.eclipse.mylyn.java.tasks_4.5.0.v20241002-1142.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (25.64kB)
+[2025-02-25 16:03:14] Fetching org.eclipse.datatools.enablement.ibm.ui_1.3.0.202311071249.jar from https://ftp2.osuosl.org/pub/eclipse/releases/2024-12/202412041000/plugins/ (25.78kB)
+[2025-02-25 16:03:14] Fetching org.eclipse.mylyn.java.tasks_4.5.0.v20241002-1142.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (25.64kB)
+[2025-02-25 16:03:14] Fetching jakarta.annotation-api_2.1.1.jar from https://ftp2.osuosl.org/pub/eclipse/releases/2024-12/202412041000/plugins/ (25.53kB)
+[2025-02-25 16:03:14] Fetching org.osgi.util.measurement_1.0.2.201802012109.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (25.74kB)
+[2025-02-25 16:03:14] Fetching jakarta.annotation-api_2.1.1.jar from https://ftp2.osuosl.org/pub/eclipse/releases/2024-12/202412041000/plugins/ (25.53kB)
+[2025-02-25 16:03:14] Fetching org.osgi.util.measurement_1.0.2.201802012109.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (25.74kB)
+[2025-02-25 16:03:14] Fetching org.eclipse.ui.win32_3.5.300.v20240524-2010.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (25.79kB)
+[2025-02-25 16:03:14] Fetching org.eclipse.ui.intro.quicklinks_1.2.400.v20240414-1916.jar from https://ftp2.osuosl.org/pub/eclipse/releases/2024-12/202412041000/plugins/ (25.81kB)
+[2025-02-25 16:03:14] Fetching org.eclipse.ecf.provider.filetransfer.httpclient5.win32_1.1.100.v20240808-1900.jar from https://ftp2.osuosl.org/pub/eclipse/releases/2024-12/202412041000/plugins/ (26.14kB)
+[2025-02-25 16:03:14] Fetching org.eclipse.tm.terminal.connector.telnet.feature_11.6.1.202406241230.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (26.34kB)
+[2025-02-25 16:03:15] Fetching org.eclipse.tm.terminal.connector.local.feature_11.6.1.202406241230.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (26.32kB)
+[2025-02-25 16:03:15] Fetching jakarta.enterprise.lang-model_4.1.0.jar from https://ftp2.osuosl.org/pub/eclipse/releases/2024-12/202412041000/plugins/ (26.87kB)
+[2025-02-25 16:03:15] Fetching org.eclipse.jsf.branding_3.5.1.v201902121810.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (26.25kB)
+[2025-02-25 16:03:15] Fetching org.eclipse.datatools.sqltools.schemaobjecteditor_1.4.0.202311071249.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (26.32kB)
+[2025-02-25 16:03:15] Fetching junit-platform-suite-engine_1.11.3.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (26.95kB)
+[2025-02-25 16:03:15] Fetching org.osgi.service.metatype.annotations_1.4.1.202109301733.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (27.08kB)
+[2025-02-25 16:03:15] Fetching org.eclipse.ecf.filetransfer.ssl.feature_1.1.402.v20240812-1535.jar from https://mirrors.jevincanders.net/eclipse/releases/2024-12/202412041000/features/ (26.91kB)
+[2025-02-25 16:03:15] Fetching org.eclipse.datatools.enablement.mysql.dbdefinition_1.3.0.202311071249.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (27.09kB)
+[2025-02-25 16:03:15] Fetching org.eclipse.m2e.wtp.jaxrs_1.6.1.20231024-1618.jar from https://ftp2.osuosl.org/pub/eclipse/releases/2024-12/202412041000/plugins/ (26.76kB)
+[2025-02-25 16:03:15] Fetching org.eclipse.mylyn.egit.ui_4.5.0.v20241002-1142.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (27.38kB)
+[2025-02-25 16:03:16] Fetching junit-jupiter-migrationsupport_5.11.3.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (27.47kB)
+[2025-02-25 16:03:16] Fetching org.eclipse.e4.ui.services_1.6.400.v20241015-1729.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (27.88kB)
+[2025-02-25 16:03:16] Fetching org.eclipse.lsp4j.jsonrpc.debug_0.23.1.v20240521-1815.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (27.95kB)
+[2025-02-25 16:03:16] Fetching org.eclipse.ecf.provider.filetransfer.httpclient5.win32_1.1.100.v20240808-1900.jar from https://ftp2.osuosl.org/pub/eclipse/releases/2024-12/202412041000/plugins/
+[2025-02-25 16:03:16] Fetching org.eclipse.wst.xml.xpath.core_1.4.0.v202307260701.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (27.55kB)
+[2025-02-25 16:03:16] Fetching org.eclipse.jdt.junit5.runtime_1.1.300.v20231214-1952.jar from https://ftp2.osuosl.org/pub/eclipse/releases/2024-12/202412041000/plugins/ (28.27kB)
+[2025-02-25 16:03:16] Fetching org.eclipse.equinox.p2.garbagecollector_1.3.400.v20241012-1120.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (28.36kB)
+[2025-02-25 16:03:16] Fetching javax.xml.soap_1.2.0.v201005080501.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (28.37kB)
+[2025-02-25 16:03:16] Fetching org.eclipse.wst.ws.ui_1.2.1.v202308010145.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (28.39kB)
+[2025-02-25 16:03:16] Fetching org.eclipse.jdt.junit4.runtime_1.3.100.v20231214-1952.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (28.39kB)
+[2025-02-25 16:03:17] Fetching org.osgi.annotation.bundle_2.0.0.202202082230.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (28.45kB)
+[2025-02-25 16:03:17] Fetching org.eclipse.equinox.concurrent_1.3.100.v20240514-0729.jar from https://mirrors.jevincanders.net/eclipse/releases/2024-12/202412041000/plugins/ (28.35kB)
+[2025-02-25 16:03:17] Fetching org.eclipse.datatools.modelbase.derby_1.3.0.202311071249.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (28.55kB)
+[2025-02-25 16:03:17] Fetching org.eclipse.wst.server.preview_1.3.100.v202408152039.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (28.61kB)
+[2025-02-25 16:03:17] Fetching org.eclipse.oomph.setup.p2.edit_1.16.0.v20230617-1322.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (28.74kB)
+[2025-02-25 16:03:17] Fetching org.eclipse.datatools.enablement.jdt.classpath_1.3.0.202311071249.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (28.78kB)
+[2025-02-25 16:03:18] Fetching org.eclipse.jgit.http.apache_7.1.0.202411261347-r.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (28.9kB)
+[2025-02-25 16:03:18] Fetching org.eclipse.datatools.enablement.sqlite_1.3.0.202311071249.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (29.05kB)
+[2025-02-25 16:03:18] Fetching org.eclipse.jem.beaninfo.vm.common_2.1.0.v202402152248.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (29.12kB)
+[2025-02-25 16:03:18] Fetching org.eclipse.m2e.sourcelookup.ui_2.1.0.20241001-1350.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (29.45kB)
+[2025-02-25 16:03:18] Fetching org.eclipse.equinox.http.jetty_3.9.200.v20240321-1445.jar from https://ftp2.osuosl.org/pub/eclipse/releases/2024-12/202412041000/plugins/ (29.31kB)
+[2025-02-25 16:03:18] Fetching org.eclipse.equinox.jsp.jasper_1.2.100.v20240321-1445.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (29.66kB)
+[2025-02-25 16:03:18] Fetching org.eclipse.mylyn.ide.ant_4.5.0.v20241002-1142.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (29.83kB)
+[2025-02-25 16:03:18] Fetching org.osgi.service.metatype_1.4.1.202109301733.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (29.67kB)
+[2025-02-25 16:03:18] Fetching org.eclipse.jgit.archive_7.1.0.202411261347-r.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (29.87kB)
+[2025-02-25 16:03:18] Fetching org.eclipse.equinox.simpleconfigurator.manipulator_2.3.300.v20240702-1335.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (30.29kB)
+[2025-02-25 16:03:18] Fetching org.eclipse.jst.common.annotations.core_1.2.0.v202307260438.jar from https://ftp2.osuosl.org/pub/eclipse/releases/2024-12/202412041000/plugins/ (30.11kB)
+[2025-02-25 16:03:19] Fetching org.eclipse.e4.ui.css.swt.theme_0.14.400.v20240424-0956.jar from https://ftp2.osuosl.org/pub/eclipse/releases/2024-12/202412041000/plugins/ (30.18kB)
+[2025-02-25 16:03:19] Fetching org.eclipse.wst.xsl.xalan_1.1.200.v202409142305.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (30.51kB)
+[2025-02-25 16:03:19] Fetching org.eclipse.jetty.jndi_12.0.15.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (30.37kB)
+[2025-02-25 16:03:19] Fetching org.osgi.service.upnp_1.2.1.202109301733.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (30.58kB)
+[2025-02-25 16:03:19] Fetching org.eclipse.datatools.enablement.sqlite.ui_1.3.0.202311071249.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (30.32kB)
+[2025-02-25 16:03:19] Fetching org.eclipse.e4.core.commands_1.1.500.v20241015-1729.jar from https://ftp2.osuosl.org/pub/eclipse/releases/2024-12/202412041000/plugins/ (30.83kB)
+[2025-02-25 16:03:19] Fetching org.eclipse.datatools.enablement.ibm.db2.zseries.ui_1.3.0.202311071249.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (30.84kB)
+[2025-02-25 16:03:19] Fetching org.eclipse.ecf.filetransfer.httpclientjava.feature_2.0.200.v20240808-1900.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (30.92kB)
+[2025-02-25 16:03:19] Fetching org.eclipse.ecf.filetransfer.feature_3.14.1900.v20240812-1535.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (31kB)
+[2025-02-25 16:03:20] Fetching org.eclipse.ecf.filetransfer.httpclient5.feature_1.1.702.v20240808-1900.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (31.03kB)
+[2025-02-25 16:03:20] Fetching org.eclipse.jst.ws.axis2.ui_1.1.0.v202308010145.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (31.29kB)
+[2025-02-25 16:03:20] Fetching org.eclipse.jst.ws.cxf.consumption.core_1.1.0.v202308010145.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (31.46kB)
+[2025-02-25 16:03:20] Fetching org.eclipse.mylyn.tasks.index.ui_4.5.0.v20241002-1142.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (31.58kB)
+[2025-02-25 16:03:20] Fetching org.eclipse.datatools.enablement.ibm.informix.ui_1.3.0.202311071249.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (31.54kB)
+[2025-02-25 16:03:20] Fetching org.eclipse.datatools.enablement.oracle.ui_1.3.0.202311071249.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (31.71kB)
+[2025-02-25 16:03:20] Fetching org.eclipse.tm.terminal.connector.local_4.8.100.202402230238.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (32.17kB)
+[2025-02-25 16:03:20] Fetching org.eclipse.jdt.annotation_2.3.100.v20241001-0914.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (32.45kB)
+[2025-02-25 16:03:21] Fetching org.eclipse.datatools.enablement.hsqldb.ui_1.3.0.202311071249.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (32.54kB)
+[2025-02-25 16:03:21] Fetching org.eclipse.m2e.mavenarchiver_2.1.0.20241001-1350.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (32.61kB)
+[2025-02-25 16:03:21] Fetching org.eclipse.emf.mapping.ecore2ecore_2.13.0.v20240604-0832.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (33.04kB)
+[2025-02-25 16:03:21] Fetching org.eclipse.mylyn.wikitext.context.ui_4.5.0.v20241002-1142.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (33.23kB)
+[2025-02-25 16:03:21] Fetching org.eclipse.equinox.p2.console_1.3.500.v20240918-1902.jar from https://ftp2.osuosl.org/pub/eclipse/releases/2024-12/202412041000/plugins/ (32.62kB)
+[2025-02-25 16:03:21] Fetching org.eclipse.wst.common.fproj_3.7.4.v202308161955.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (33.45kB)
+[2025-02-25 16:03:21] Fetching org.eclipse.jpt.common.feature_1.5.200.v202308172102.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (33.74kB)
+[2025-02-25 16:03:22] Fetching org.eclipse.jst.common.fproj.enablement.jdt_3.30.0.v202405122323.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (33.47kB)
+[2025-02-25 16:03:22] Fetching org.eclipse.jpt.jaxb.feature_1.5.201.v202301061019.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (33.77kB)
+[2025-02-25 16:03:22] Fetching org.eclipse.equinox.p2.directorywatcher_1.4.400.v20240321-1450.jar from https://ftp2.osuosl.org/pub/eclipse/releases/2024-12/202412041000/plugins/ (33.73kB)
+[2025-02-25 16:03:22] Fetching org.eclipse.jpt.common.eclipselink.feature_1.3.400.v202404202240.jar from https://ftp2.osuosl.org/pub/eclipse/releases/2024-12/202412041000/features/ (33.73kB)
+[2025-02-25 16:03:22] Fetching org.eclipse.jst.server_userdoc.feature_3.3.300.v201901310132.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (33.78kB)
+[2025-02-25 16:03:22] Fetching org.eclipse.jetty.plus_12.0.15.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (33.82kB)
+[2025-02-25 16:03:22] Fetching org.eclipse.jst.server_core.feature_3.4.700.v202405180431.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (33.81kB)
+[2025-02-25 16:03:22] Fetching org.eclipse.jpt.jaxb.eclipselink.feature_1.4.203.v202104080213.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (33.82kB)
+[2025-02-25 16:03:22] Fetching org.eclipse.mylyn.versions.core_4.5.0.v20241002-1142.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (33.88kB)
+[2025-02-25 16:03:22] Fetching org.eclipse.jsf.feature_3.13.200.v202408212140.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (33.87kB)
+[2025-02-25 16:03:23] Fetching org.eclipse.jpt.jpa.feature_3.8.0.v202405180120.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (34.07kB)
+[2025-02-25 16:03:23] Fetching org.eclipse.jpt.jpa.eclipselink.feature_3.4.101.v202308172102.jar from https://ftp2.osuosl.org/pub/eclipse/releases/2024-12/202412041000/features/ (33.9kB)
+[2025-02-25 16:03:23] Fetching org.eclipse.jst.server_ui.feature_3.4.500.v202401292331.jar from https://ftp2.osuosl.org/pub/eclipse/releases/2024-12/202412041000/features/ (33.88kB)
+[2025-02-25 16:03:23] Fetching org.eclipse.tm.terminal.connector.process_4.9.100.202402230238.jar from https://ftp2.osuosl.org/pub/eclipse/releases/2024-12/202412041000/plugins/ (34.01kB)
+[2025-02-25 16:03:23] Fetching org.commonmark-gfm-tables_0.24.0.v20241021-1700.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (34.13kB)
+[2025-02-25 16:03:23] Fetching org.objectweb.asm.tree.analysis_9.7.1.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (34.3kB)
+[2025-02-25 16:03:23] Fetching org.eclipse.jface.notifications_0.7.300.v20240707-1119.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (34.74kB)
+[2025-02-25 16:03:23] Fetching org.eclipse.jst.web_userdoc.feature_3.6.1.v202309190220.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (34.78kB)
+[2025-02-25 16:03:23] Fetching org.eclipse.jst.enterprise_core.feature_3.36.0.v202409282008.jar from https://ftp2.osuosl.org/pub/eclipse/releases/2024-12/202412041000/features/ (34.79kB)
+[2025-02-25 16:03:24] Fetching org.eclipse.jst.ws.jaxws_userdoc.feature_1.0.403.v201909051708.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (34.85kB)
+[2025-02-25 16:03:24] Fetching org.eclipse.wst.ws_userdoc.feature_3.1.501.v201909051708.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (34.89kB)
+[2025-02-25 16:03:24] Fetching org.eclipse.jst.enterprise_userdoc.feature_3.23.0.v202309190220.jar from https://mirrors.jevincanders.net/eclipse/releases/2024-12/202412041000/features/ (34.8kB)
+[2025-02-25 16:03:24] Fetching org.eclipse.wst.ws_ui.feature_3.35.0.v202407071526.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (34.91kB)
+[2025-02-25 16:03:24] Fetching org.eclipse.jst.web_ui.feature_3.35.0.v202408150414.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (34.92kB)
+[2025-02-25 16:03:24] Fetching org.eclipse.jst.web_core.feature_3.35.0.v202408150414.jar from https://ftp2.osuosl.org/pub/eclipse/releases/2024-12/202412041000/features/ (34.93kB)
+[2025-02-25 16:03:24] Fetching org.eclipse.jst.ws.axis2tools.feature_1.2.0.v202405180419.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (34.95kB)
+[2025-02-25 16:03:24] Fetching org.eclipse.wst.xml_userdoc.feature_3.18.0.v202004271556.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (35kB)
+[2025-02-25 16:03:24] Fetching org.eclipse.datatools.connectivity.console.profile_1.3.0.202311071249.jar from https://ftp2.osuosl.org/pub/eclipse/releases/2024-12/202412041000/plugins/ (34.94kB)
+[2025-02-25 16:03:24] Fetching org.eclipse.wst.common_core.feature_3.36.0.v202409282003.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (35.01kB)
+[2025-02-25 16:03:24] Fetching org.eclipse.mylyn.commons.notifications.feed_4.5.0.v20241002-1142.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (35.02kB)
+[2025-02-25 16:03:25] Fetching org.eclipse.wst.xml_core.feature_3.36.0.v202409282004.jar from https://ftp2.osuosl.org/pub/eclipse/releases/2024-12/202412041000/features/ (35.05kB)
+[2025-02-25 16:03:25] Fetching org.eclipse.jst.ws.jaxws.dom.feature_1.0.600.v202308010354.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (35.11kB)
+[2025-02-25 16:03:25] Fetching org.eclipse.jst.ws.jaxws.feature_1.2.1100.v202409291604.jar from https://mirrors.jevincanders.net/eclipse/releases/2024-12/202412041000/features/ (35.04kB)
+[2025-02-25 16:03:26] Fetching org.eclipse.jst.server_adapters.feature_3.35.0.v202408152039.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (35.11kB)
+[2025-02-25 16:03:26] Fetching org.eclipse.jst.web_js_support.feature_3.32.0.v202309190220.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (35.1kB)
+[2025-02-25 16:03:26] Fetching org.eclipse.jst.webpageeditor.feature_2.12.100.v202406180217.jar from https://mirrors.jevincanders.net/eclipse/releases/2024-12/202412041000/features/ (35.14kB)
+[2025-02-25 16:03:26] Fetching org.eclipse.jst.web_js_support.feature_3.32.0.v202309190220.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (35.1kB)
+[2025-02-25 16:03:26] Fetching org.eclipse.jst.webpageeditor.feature_2.12.100.v202406180217.jar from https://mirrors.jevincanders.net/eclipse/releases/2024-12/202412041000/features/ (35.14kB)
+[2025-02-25 16:03:26] Fetching org.eclipse.wst.xml_core.feature_3.36.0.v202409282004.jar from https://ftp2.osuosl.org/pub/eclipse/releases/2024-12/202412041000/features/
+[2025-02-25 16:03:27] Fetching org.eclipse.jst.ws.jaxws.dom.feature_1.0.600.v202308010354.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/
+[2025-02-25 16:03:27] Fetching org.eclipse.jst.ws.cxf.feature_1.1.1300.v202409291603.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (35.1kB)
+[2025-02-25 16:03:27] Fetching org.eclipse.jst.server_adapters.ext.feature_3.4.1200.v202409240221.jar from https://ftp2.osuosl.org/pub/eclipse/releases/2024-12/202412041000/features/ (35.12kB)
+[2025-02-25 16:03:28] Fetching org.eclipse.equinox.event_1.7.100.v20240321-1445.jar from https://mirrors.jevincanders.net/eclipse/releases/2024-12/202412041000/plugins/ (35.52kB)
+[2025-02-25 16:03:28] Fetching org.eclipse.wst.ws_core.feature_3.35.0.v202408150414.jar from https://ftp2.osuosl.org/pub/eclipse/releases/2024-12/202412041000/features/ (35.12kB)
+[2025-02-25 16:03:28] Fetching org.eclipse.equinox.event_1.7.100.v20240321-1445.jar from https://mirrors.jevincanders.net/eclipse/releases/2024-12/202412041000/plugins/ (35.52kB)
+[2025-02-25 16:03:28] Fetching org.eclipse.wst.ws_core.feature_3.35.0.v202408150414.jar from https://ftp2.osuosl.org/pub/eclipse/releases/2024-12/202412041000/features/ (35.12kB)
+[2025-02-25 16:03:28] Fetching org.eclipse.wst.server_adapters.feature_3.35.0.v202408161416.jar from https://ftp2.osuosl.org/pub/eclipse/releases/2024-12/202412041000/features/ (35.41kB)
+[2025-02-25 16:03:28] Fetching org.eclipse.wst.xml_ui.feature_3.36.0.v202409282004.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (35.2kB)
+[2025-02-25 16:03:28] Fetching org.eclipse.wst.server_adapters.feature_3.35.0.v202408161416.jar from https://ftp2.osuosl.org/pub/eclipse/releases/2024-12/202412041000/features/ (35.41kB)
+[2025-02-25 16:03:28] Fetching org.eclipse.wst.xml_ui.feature_3.36.0.v202409282004.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (35.2kB)
+[2025-02-25 16:03:28] Fetching org.osgi.service.useradmin_1.1.1.202109301733.jar from https://mirrors.jevincanders.net/eclipse/releases/2024-12/202412041000/plugins/ (35.82kB)
+[2025-02-25 16:03:28] Fetching org.eclipse.jst.jsf.apache.trinidad.tagsupport.feature_2.8.0.v202307262303.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/features/ (35.21kB)
+[2025-02-25 16:03:28] Fetching org.eclipse.m2e.wtp.jpa_1.6.1.20231024-1618.jar from https://mirrors.jevincanders.net/eclipse/releases/2024-12/202412041000/plugins/ (36.09kB)
+[2025-02-25 16:03:28] Fetching javax.xml.rpc_1.1.0.v201209140446.jar from https://mirrors.jevincanders.net/eclipse/releases/2024-12/202412041000/plugins/ (35.87kB)
+[2025-02-25 16:03:28] Fetching org.eclipse.mylyn.tasks.index.core_4.5.0.v20241002-1142.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (36.42kB)
+[2025-02-25 16:03:28] Fetching org.eclipse.jst.server_adapters.ext.feature_3.4.1200.v202409240221.jar from https://ftp2.osuosl.org/pub/eclipse/releases/2024-12/202412041000/features/
+[2025-02-25 16:03:29] Fetching org.eclipse.wst.server.http.core_1.0.400.v202007170127.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (36.95kB)
+[2025-02-25 16:03:29] Fetching org.eclipse.datatools.enablement.ibm.db2.iseries.ui_1.3.0.202311071249.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (37.01kB)
+[2025-02-25 16:03:29] Fetching org.eclipse.datatools.sqltools.sql.ui_1.3.0.202311071249.jar from https://mirrors.jevincanders.net/eclipse/releases/2024-12/202412041000/plugins/ (36.74kB)
+[2025-02-25 16:03:29] Fetching org.eclipse.mylyn.commons.activity.ui_4.5.0.v20241002-1142.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (37.09kB)
+[2025-02-25 16:03:29] Fetching org.eclipse.datatools.enablement.ibm.informix.dbdefinition_1.3.0.202311071249.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (37.22kB)
+[2025-02-25 16:03:29] Fetching org.eclipse.jst.j2ee.ejb.annotations.emitter_1.2.0.v202307261744.jar from https://mirrors.jevincanders.net/eclipse/releases/2024-12/202412041000/plugins/ (36.81kB)
+[2025-02-25 16:03:29] Fetching org.eclipse.jst.j2ee.jca.ui_1.2.0.v202402152248.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (37.25kB)
+[2025-02-25 16:03:29] Fetching org.eclipse.oomph.resources.edit_1.16.0.v20240927-1011.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (37.29kB)
+[2025-02-25 16:03:29] Fetching org.eclipse.emf.ecore.change.edit_2.10.0.v20240604-0832.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (37.3kB)
+[2025-02-25 16:03:29] Fetching org.eclipse.equinox.p2.extensionlocation_1.5.400.v20240321-1450.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (37.71kB)
+[2025-02-25 16:03:30] Fetching org.eclipse.jst.pagedesigner.jsp.core_1.6.0.v202303190717.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (37.79kB)
+[2025-02-25 16:03:30] Fetching org.eclipse.emf.importer.ecore_2.12.0.v20240604-0832.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (38.14kB)
+[2025-02-25 16:03:30] Fetching org.eclipse.datatools.enablement.postgresql_1.4.0.202311071249.jar from https://mirrors.jevincanders.net/eclipse/releases/2024-12/202412041000/plugins/ (37.84kB)
+[2025-02-25 16:03:30] Fetching org.eclipse.tm4e.markdown_0.14.0.202410282056.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (38.69kB)
+[2025-02-25 16:03:30] Fetching org.eclipse.datatools.connectivity.db.generic.ui_1.3.0.202311071249.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (38.65kB)
+[2025-02-25 16:03:30] Fetching org.apache.felix.gogo.command_1.1.2.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (38.76kB)
+[2025-02-25 16:03:30] Fetching org.eclipse.core.variables_3.6.500.v20240702-1152.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (38.91kB)
+[2025-02-25 16:03:30] Fetching org.eclipse.mylyn.ide.ui_4.5.0.v20241002-1142.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (38.92kB)
+[2025-02-25 16:03:31] Fetching org.eclipse.m2e.wtp.jsf_1.6.1.20231024-1618.jar from https://mirrors.jevincanders.net/eclipse/releases/2024-12/202412041000/plugins/ (38.86kB)
+[2025-02-25 16:03:31] Fetching org.eclipse.datatools.intro_1.15.0.202311071249.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (39kB)
+[2025-02-25 16:03:31] Fetching org.eclipse.equinox.frameworkadmin_2.3.200.v20240321-1450.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (39.11kB)
+[2025-02-25 16:03:31] Fetching org.eclipse.emf.ant_2.13.0.v20240604-0832.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (39.05kB)
+[2025-02-25 16:03:31] Fetching org.eclipse.mylyn.commons.repositories.http.core_4.5.0.v20241002-1142.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (39.79kB)
+[2025-02-25 16:03:31] Fetching org.osgi.service.coordinator_1.0.2.201505202024.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (39.79kB)
+[2025-02-25 16:03:31] Fetching org.eclipse.mylyn.commons.repositories.http.core_4.5.0.v20241002-1142.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (39.79kB)
+[2025-02-25 16:03:31] Fetching org.osgi.service.coordinator_1.0.2.201505202024.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (39.79kB)
+[2025-02-25 16:03:32] Fetching org.eclipse.datatools.sqltools.tabledataeditor_1.3.0.202311071249.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (40.25kB)
+[2025-02-25 16:03:32] Fetching org.eclipse.m2e.pde.connector_2.2.0.20241001-1350.jar from https://mirrors.jevincanders.net/eclipse/releases/2024-12/202412041000/plugins/ (39.82kB)
+[2025-02-25 16:03:32] Fetching org.eclipse.mylyn.commons.xmlrpc_4.5.0.v20241002-1142.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (40.84kB)
+[2025-02-25 16:03:33] Fetching org.eclipse.oomph.workingsets.edit_1.13.0.v20230204-0932.jar from https://mirrors.jevincanders.net/eclipse/releases/2024-12/202412041000/plugins/ (40.14kB)
+[2025-02-25 16:03:33] Fetching org.osgi.service.coordinator_1.0.2.201505202024.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/
+[2025-02-25 16:03:33] Fetching org.eclipse.ui.themes_1.2.2600.v20241028-0713.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (40.93kB)
+[2025-02-25 16:03:33] Fetching org.eclipse.m2e.jdt.ui_2.1.0.20241001-1350.jar from https://mirrors.jevincanders.net/eclipse/releases/2024-12/202412041000/plugins/ (41.47kB)
+[2025-02-25 16:03:33] Fetching org.eclipse.mylyn.debug.ui_4.5.0.v20241002-1142.jar from https://mirrors.jevincanders.net/eclipse/releases/2024-12/202412041000/plugins/ (40.14kB)
+[2025-02-25 16:03:33] Fetching org.eclipse.m2e.jdt.ui_2.1.0.20241001-1350.jar from https://mirrors.jevincanders.net/eclipse/releases/2024-12/202412041000/plugins/ (41.47kB)
+[2025-02-25 16:03:33] Fetching org.eclipse.mylyn.debug.ui_4.5.0.v20241002-1142.jar from https://mirrors.jevincanders.net/eclipse/releases/2024-12/202412041000/plugins/ (40.14kB)
+[2025-02-25 16:03:34] Fetching org.eclipse.m2e.jdt.ui_2.1.0.20241001-1350.jar from https://mirrors.jevincanders.net/eclipse/releases/2024-12/202412041000/plugins/
+[2025-02-25 16:03:34] Fetching org.eclipse.mylyn.debug.ui_4.5.0.v20241002-1142.jar from https://mirrors.jevincanders.net/eclipse/releases/2024-12/202412041000/plugins/
+[2025-02-25 16:03:34] Fetching org.eclipse.m2e.pde.connector_2.2.0.20241001-1350.jar from https://mirrors.jevincanders.net/eclipse/releases/2024-12/202412041000/plugins/
+[2025-02-25 16:03:34] Fetching org.eclipse.wst.command.env.doc.user_1.5.400.v201903222115.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (41.62kB)
+[2025-02-25 16:03:34] Fetching org.eclipse.datatools.enablement.ibm.db2.zseries.dbdefinition_1.3.0.202311071249.jar from https://ftp2.osuosl.org/pub/eclipse/releases/2024-12/202412041000/plugins/ (41.72kB)
+[2025-02-25 16:03:35] Fetching org.eclipse.equinox.p2.discovery_1.3.400.v20240918-1902.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (41.55kB)
+[2025-02-25 16:03:35] Fetching org.eclipse.jgit.ssh.apache.agent_7.1.0.202411261347-r.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (41.51kB)
+[2025-02-25 16:03:35] Fetching org.eclipse.jdt.apt.pluggable.core_1.4.600.v20241001-0914.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (42.1kB)
+[2025-02-25 16:03:36] Fetching org.eclipse.jst.common.annotations.ui_1.2.0.v202307260438.jar from https://mirrors.jevincanders.net/eclipse/releases/2024-12/202412041000/plugins/ (42.21kB)
+[2025-02-25 16:03:36] Fetching org.eclipse.jst.ws.uddiregistry_1.2.0.v202308010229.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (42.1kB)
+[2025-02-25 16:03:36] Fetching org.osgi.service.component.annotations_1.5.1.202212101352.jar from https://0ms.dev/mirrors/eclipse//releases/2024-12/202412041000/plugins/ (42.33kB)
+[2025-02-25 16:03:37] Fetching org.eclipse.jst.common.annotations.ui_1.2.0.v202307260438.jar from https://mirrors.jevincanders.net/eclipse/releases/2024-12/202412041000/plugins/
