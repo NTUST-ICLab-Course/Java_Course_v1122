@@ -7,7 +7,7 @@ public class Lab09{
       String filename = JOptionPane.showInputDialog("What robot world?");
       Display.openWorld("../maps/"+filename+".map");
       Display.setSize(10, 10);
-      Display.setSpeed(5);
+      Display.setSpeed(10);
       Athlete yifong = new Athlete(1,1,Display.EAST,0);
       int [] counterArray = new int[10];
       for(int i = 0;i < counterArray.length;i++){

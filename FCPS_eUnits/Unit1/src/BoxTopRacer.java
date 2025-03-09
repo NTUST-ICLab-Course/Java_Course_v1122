@@ -1,8 +1,7 @@
+import edu.fcps.karel2.Display;
+import edu.fcps.karel2.Robot;
+
 public class BoxTopRacer extends Racer{
-   
-   public BoxTopRacer(){
-   
-   }
    
    public BoxTopRacer(int y){
       super(y);
@@ -19,7 +18,7 @@ public class BoxTopRacer extends Racer{
          move();
       }
       turnRight();
-      while(forntIsClear()){
+      while(frontIsClear()){
          move();
       }
       turnLeft();

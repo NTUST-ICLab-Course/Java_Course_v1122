@@ -4,7 +4,8 @@
    import edu.fcps.karel2.Robot;
    import edu.fcps.karel2.Display;
    import javax.swing.JOptionPane;
-    public class Lab08
+   
+   public class Lab08
    {
        public static void race(Racer arg)
       {
@@ -20,6 +21,7 @@
             }
          }
       }
+      
        public static void main(String[] args) 
       {
          String filename = JOptionPane.showInputDialog("What robot world?");

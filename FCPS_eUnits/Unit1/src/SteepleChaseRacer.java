@@ -1,8 +1,7 @@
+import edu.fcps.karel2.Display;
+import edu.fcps.karel2.Robot;
+
 public class SteepleChaseRacer extends Racer{
-   
-   public SteepleChaseRacer(){
-   
-   }
    
    public SteepleChaseRacer(int y){
       super(y);
