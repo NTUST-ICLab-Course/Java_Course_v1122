@@ -32,6 +32,8 @@
  * EclipseDebug
     * [影片](https://youtu.be/nBfycTLG814)
 
+## 助教講解影片
+* [2025-吳亮穎-Lab00~Lab05](https://youtu.be/VGdtRBhh7_4)
 
 ## 解答 Lab02~Lab05
 
