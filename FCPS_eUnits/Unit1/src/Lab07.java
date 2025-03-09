@@ -12,7 +12,7 @@
          String avenue = JOptionPane.showInputDialog("What x-coordinate?");
          int x = Integer.parseInt(avenue);
       
-         Display.openWorld("maps/"+filename+".map");
+         Display.openWorld("../maps/"+filename+".map");
          Display.setSize(17, 15);
          Display.setSpeed(10);
       
