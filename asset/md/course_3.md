@@ -19,7 +19,8 @@
       * 影片： https://youtu.be/3NbPVlG2E7c
    * Lab05Thread (2020.04.08)
       * 影片： https://youtu.be/2q3jhd-7RU4
-
+## 助教講解影片
+* [2025-陳敬橋-Lab10~Lab16](https://l.facebook.com/l.php?u=https%3A%2F%2Fdrive.google.com%2Fdrive%2Ffolders%2F1XN1lluhc7ogMDjEQG33M8QZxfxI9I0OZ%3Fusp%3Ddrive_link%26fbclid%3DIwZXh0bgNhZW0CMTAAAR1sNOybb5hFlqpIr02RuevPFIx6M-dIlOtnZbqvxHaP9eSxaTbhDPpRtyE_aem_69kyll9DoVXH91-A2dhl1w&h=AT0T2zka7BChO0SdToXNDQWRlHrRf62KhPlJlaFsvvAh2m2EDzzaPxPaKxitwz5E4AYie3nh4nh0GMZ-LacKk3e2dqRNlBiYU_hCtTzzSyUbwpVuplSW4OH5tg2AgG8Pqe5GVo7y7wQXw2s)
 ## Lab 10 extra
    * 於學期結束前完成 Lab10 extra，可於學期總成績加分
       * 所有地圖皆需以沿著右手邊的牆走來完成
