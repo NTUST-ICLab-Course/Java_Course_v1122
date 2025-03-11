@@ -52,6 +52,10 @@
             }
             temp.move();
          }
+          while (temp.nextToABeeper()){
+               temp.pickBeeper();
+            }
+
       
       }
        public static void task_05()	
@@ -72,10 +76,21 @@
        public static void task_06()
       { //go to the end of the row of beepers, there is one gap
          Robot temp = new Robot(1, 6, Display.EAST, 0);
+          while (temp.nextToABeeper()){
+            temp.pickBeeper();
+            temp.move();
+         }
+
+         while(!temp.nextToABeeper()){
+            temp.move();
+         }
+
          while (temp.nextToABeeper()){
             temp.pickBeeper();
             temp.move();
          }
 
-      }
+
+          
+               }
    }
