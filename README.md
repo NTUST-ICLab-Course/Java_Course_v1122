@@ -8,38 +8,48 @@
 <!----安裝教學與DEMO--->
 
 ## 週次表 
-| 週  |正課|實習課|       正課教學內容       |    實習課內容    | 影片範圍 |
-|:--:|:---:|:-----:|:-----------------------:|:---------------------|:---------------------------------------|
-| 1  | 2/22     | 2/20      |**Eclipse and Course Demo**             | **Unit1/** <br>00,01         |安裝 FCPS JKarel 的程式 <br>Lab00~Lab01 |
-| 2  | 2/29     | 2/27      |**Unit1** <br> §1 Classes and Objects <br> §2 Inheritance and Methods  | 02,03,04,05     |Lab02~Lab05        |
-| 3  | 3/7      | 3/5       |§3 Algorithms and Polymorphism          | 06,07,08,09                  |Lab06~Lab09                |
-| 4  | 3/14     | 3/12      |§4 Abstract Classes and Interfaces      | 10,11,12,14,15,16            |Lab10\~12; Lab14~16 <br> EclipseDebug  |
-| 5  | 3/21     | 3/19      |§5 Return, break, and continue <br> § Appendix: Array and Recursive    | 17,18,19 <br> Appendix      |Lab17~19 <br> Appendix     |
-| 6  | 3/28     | 3/26      |**Unit2** <br>  §1 Graphics             | **Unit2/** <br>00,01,02,03   |Unit2 Lab00~03                         |
-| 7  | 4/4 <br>(放假) | 4/2 |**清明節放假**                           |                              |                                       |
-| 8  | 4/11     | 4/9       |**期中考**                              | **期中考**                    |                                       |
-| 9  | 4/18     | 4/16      |§2 Static vs Instance, Class vs Object | 04,05,06                      |Unit2 Lab04~09                         |
-| 10 | 4/25     | 4/23      |§3 Animation                           | 07,08,09                      |                                       |
-| 11 | 5/2      | 4/30      |§3 Animation (Cont’d)                  | 10,11,12,13                   |Unit2 Lab10 <br> Unit2 Lab11~13|
-| 12 | 5/9      | 5/7       |§3 Animation (Cont’d)                  | 14,15,16,17                   |Unit2 Lab14；Unit2 Lab15<br>Unit2 Lab16；Unit2 Lab17 |
-| 13 | 5/16     | 5/14      |§3 Animation (Cont’d)                  | 18,19,20                      |Unit2 Lab18；Unit2 Lab19<br>Unit2 Lab20 |
-| 14 | 5/23     | 5/21      |**{星際大戰}專題 demo**               | **自選專題 demo**              |                                        |  
-| 15 | 5/30     | 5/28      |**{俄羅斯方塊}專題 demo**               | **自選專題 demo**              |                                        |
-| 16 | 6/6      | 6/4          |**期末考**                          |                               |**學校最後一週上課**                      |
+| 週  | 正課            | 實習課  | 正課教學內容                                                                | 實習課內容                      | 課程範圍                                               |                                      |
+|----|---------------|------|-----------------------------------------------------------------------|----------------------------|----------------------------------------------------|--------------------------------------|
+| 1  | 2/17          | 2/18 | **Eclipse and Course Demo**                                           | **Unit1/** <br>00,01       | 安裝 FCPS JKarel 的程式 <br>Lab00~Lab01                 | [course 0](./asset/md/course_0.md)   |
+| 2  | 2/24          | 2/25 | **Unit1** <br> §1 Classes and Objects <br> §2 Inheritance and Methods | 02,03,04,05                | Lab02~Lab05                                        | [course 1](./asset/md/course_1.md)   |
+| 3  | 3/3  <br>(放假) | 3/4  | 放假                                                                    | 自行預習                       | 自行預習                                               |                                      |
+| 4  | 3/10          | 3/11 | §3 Algorithms and Polymorphism                                        | 06,07,08,09                | Lab06~Lab09                                        | [course 2](./asset/md/course_2.md)   |
+| 5  | 3/17          | 3/18 | §4 Abstract Classes and Interfaces                                    | 10,11,12,14,15,16          | Lab10\~12; Lab14~16 <br> EclipseDebug              | [course 3](./asset/md/course_3.md)   |
+| 6  | 3/24          | 3/25 | §5 Return, break, and continue <br> § Appendix: Array and Recursive   | 17,18,19 <br> Appendix     | Lab17~19 <br> Appendix                             | [course 4](./asset/md/course_4.md)   |
+| 7  | 3/31          | 4/1  | **Unit2** <br>  §1 Graphics                                           | **Unit2/** <br>00,01,02,03 | Unit2 Lab00~03                                     | [course 5](./asset/md/course_5.md)   |
+| 8  | 4/7           | 4/8  | 期中考                                                                   | 期中考                        |                                                    |                                      |
+| 9  | 4/14          | 4/15 | §2 Static vs Instance, Class vs Object                                | 04,05,06                   | Unit2 Lab04~09                                     | [course 6](./asset/md/course_6.md)   |
+| 10 | 4/21          | 4/22 | §3 Animation                                                          | 07,08,09                   | Unit2 Lab04~09                                     | [course 7](./asset/md/course_7.md)   |
+| 11 | 4/28          | 4/29 | §3 Animation (Cont’d)                                                 | 10,11,12,13                | Unit2 Lab10 <br> Unit2 Lab11~13                    | [course 8](./asset/md/course_8.md)   |
+| 12 | 5/5           | 5/6  | §3 Animation (Cont’d)                                                 | 14,15,16,17                | Unit2 Lab14；Unit2 Lab15<br>Unit2 Lab16；Unit2 Lab17 | [course 9](./asset/md/course_9.md)   |
+| 13 | 5/12          | 5/13 | §3 Animation (Cont’d)                                                 | 18,19,20                   | Unit2 Lab18；Unit2 Lab19<br>Unit2 Lab20             | [course 10](./asset/md/course_10.md) |
+| 14 | 5/19          | 5/20 | **{星際大戰}專題 demo**                                                     | **自選專題 demo**              |                                                    | [demo](./asset/md/project_demo.md)   |
+| 15 | 5/26          | 5/27 | **{俄羅斯方塊}專題 demo**                                                    | **自選專題 demo**              |                                                    |                                      |
+| 16 | 6/2           | 6/3  | **期末考**                                                               |                            | **學校最後一週上課**                                       |                                      |
+
+## 課程宗旨：
+本課程旨在讓學生建立紮實的物件導向概念，並學習 Java 程式設計，為未來進一步開發 Android 手機或平板應用程式做好準備。課程內容涵蓋 Java 的核心觀念，包括類別與物件、方法、繼承、多型、介面 (Interface)，以及基本的 GUI 元件應用。課程將透過講解與實作相結合的方式，幫助學生理解程式設計的基本原理。學生將透過課堂練習與線上作業，學習決策控制、迴圈、動畫、人機互動 (HCI)、集合與陣列操作、事件驅動程式設計，以及基本的例外處理機制，為後續的程式開發打下基礎。
 
 
 ## 評分標準
-### 1.正課評分：
-&emsp;-期中(4/11)、期末(6/6)考試：30％；30％<br>
-&emsp;-地點 EE-407，時間 R9、R10、RA<br>
-&emsp;-最多兩人一組期末專題：40%<br>
-&emsp;&emsp;* 學號合為雙數->星際大戰<br>
-&emsp;&emsp;* 學號合為單數->俄羅斯方塊<br>
-&emsp;&emsp;(滿分由同儕評分後經由排序調整為60~100平均分佈)<br>
+  > 評分標準：※ 要直接拿 A+ 的同學，請與老師連絡
+
+### 正課配分：
+*	實體教室線上 coding考試：30％；30％ (EE B03，時間T9，T10)
+*	兩人一組期末專題 - 俄羅斯方塊、星際大戰：40％ 
+### 實習課配分：
+*	每週進度 50％
+*	兩人一組分組專題：自選題 50％
 
 
-### 2.實習課評分：
-&emsp;-每週進度：50%<br>
-&emsp;-二人一組期末專題：自選題 50%<br>
-&emsp;&emsp;(滿分由同儕評分後經由排序調整為60~100平均分佈) <br>
-**&emsp;&emsp;要直接拿 A+ 的同學，請與老師連絡，以作完5個 Units 的習題當作替代。**
+## 課程規定
+
+*	正課安排的 T1 時段，請同學依自身時間安排觀看錄影。如有問題，歡迎於下次上課時與老師討論。
+*	實習課將配合正課進度進行，現場有助教提供即時解答，協助同學理解課程內容。
+*	歡迎同學互相討論習題，但開始撰寫程式後，不得參考他人程式碼。
+*	鼓勵使用 AI 工具輔助程式開發，以提升學習效果。
+*	實習課作業需於當日課程結束前繳交，逾期不受理。習題解答將於當天公布。
+⦁	建議攜帶個人筆記型電腦參與課程與實習，以提升學習體驗。期末考將允許使用個人電腦完成線上考試題目。
+* 期中與期末考試採線上進行，考試地點將另行公告。考試時需當場撰寫程式，僅全對者可獲得該題滿分，無部分分數。
+*	課程 GitHub 資源包含投影片、習題、教學錄影補充與習題解答，請參考：[GitHub 課程資源](https://github.com/NTUST-ICLab-Course/JAVA_Course_v1122)。
+
