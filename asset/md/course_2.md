@@ -15,7 +15,7 @@
 
 ## 助教講解影片
 * [2025-吳亮穎-Lab06~Lab09](https://youtu.be/YbzRgrruzAo)
-* [2025-陳建宇-Lab06~Lab09](https://youtu.be/YbzRgrruzAo)
+* [2025-陳建宇-Lab06~Lab09](https://www.youtube.com/playlist?list=PLfddU4ruCk0Bs24PMefWVu5QDJsoDvk2-)
 ## 解答
   * Lab 解答影片
       * Unit1 Lab06 Ans：https://www.youtube.com/watch?v=ULHIGtv_-cw
