@@ -9,11 +9,25 @@ public class BoxTopRacer extends Racer
     {
         // pseudocode: tL, m, tR, m, tR, m, tL
         turnLeft();
-        move();
+        while(!rightIsClear()){
+         move();
+        }
         turnRight();
         move();
+        
+        while(!rightIsClear()){
+         move();
+        }
+        
         turnRight();
         move();
+
+
+        
+        while(!rightIsClear() && frontIsClear()){
+         move();
+        
+        }
         turnLeft();
     }
 
