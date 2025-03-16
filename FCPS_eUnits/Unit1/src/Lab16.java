@@ -6,7 +6,7 @@
    {
        public static void main(String[] args)
       {
-         Display.openWorld("maps/shifty.map");
+         Display.openWorld("../maps/shifty.map");
          Display.setSize(10, 10);
          Display.setSpeed(8);
       
