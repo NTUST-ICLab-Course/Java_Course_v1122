@@ -20,10 +20,7 @@ public class Athlete extends Robot
     {
          turnLeft();
          turnLeft();
-         
-        /***********************
-         * Enter your code here *
-         ***********************/
+        
     }
 
     public void turnRight()
