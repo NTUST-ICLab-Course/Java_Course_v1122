@@ -6,9 +6,9 @@
    {
        public static void main(String[] args)
       {
-         Display.openWorld("maps/shifty.map");
+         Display.openWorld("../maps/shifty.map");
          Display.setSize(10, 10);
-         Display.setSpeed(8);
+         Display.setSpeed(10);
       
          Thread t1 = new Thread( new Shifter(1) );
          Thread t2 = new Thread( new Shifter(2) );
