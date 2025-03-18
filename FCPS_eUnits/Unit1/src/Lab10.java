@@ -8,7 +8,7 @@ public class Lab10 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		Display.openWorld("../maps/maze3.map");
+		Display.openWorld("./maps/maze3.map");
       Display.setSize(10, 10);
       Display.setSpeed(10);
       Athlete lisa = new Athlete(1, 1, Display.NORTH, Display.INFINITY);
