@@ -2,6 +2,7 @@
 * 本資源庫統整鍾聖倫教授所開授的「Java程式設計與實習」課程資源，內涵課程影片連結、授課教材以及範例程式檔案，同學們可以配合本資源庫學習使用。
 * 本課程分為正課與實習課，正課講解概念，實習是寫程式。
 * 教材資源：https://compsci.sites.tjhsst.edu/CSweb/index.html
+* PR Practice
 
 <!----註解符號，不顯示--->
 <!---原課程網頁: http://ntustee303.weebly.com/ --->
