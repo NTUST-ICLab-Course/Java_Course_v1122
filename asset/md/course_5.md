@@ -8,6 +8,9 @@
    * FCPS Unit2 Lab00-03
       * 影片：https://youtu.be/Djg3uGO05_E
 
+## 助教講解影片
+* [2025-吳亮穎-Unit2 Lab00~Lab03](https://youtu.be/2C1a2ZkWt18)
+
 ## 解答
   * Lab 解答影片
       * Unit2 Lab00 Ans : https://youtu.be/ZSY4NcphR6Q
