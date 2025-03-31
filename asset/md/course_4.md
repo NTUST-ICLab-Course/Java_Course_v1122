@@ -16,6 +16,8 @@
 ## 如何繳交期中考程式碼與執行結果
   * 影片：https://www.youtube.com/watch?v=mqrbqfdhhw0
 
+## 助教講解影片
+* [2025-陳建宇-Lab10~Lab11](https://www.youtube.com/playlist?list=PLfddU4ruCk0CdViWqnGK5tRLF9JGQjn5l)
 
 ## 解答
   * Lab 解答影片
