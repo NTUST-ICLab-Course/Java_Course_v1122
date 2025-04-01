@@ -1,1 +1,0 @@
-INDEX VERSION 1.134+C:\Kamui\ntust\Java_Course_v1122\.metadata\.plugins\org.eclipse.jdt.core
