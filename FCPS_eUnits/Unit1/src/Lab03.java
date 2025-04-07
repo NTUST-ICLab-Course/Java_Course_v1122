@@ -5,6 +5,7 @@ public class Lab03{
    public static void main(String[] args){
       Display.openWorld("../maps/mountain.map");
       Display.setSize(16,16);
+      Display.setSpeed(10);
       Climber yf = new Climber(8);
       yf.turnRight();
       yf.move();

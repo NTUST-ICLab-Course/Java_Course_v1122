@@ -1,26 +1,26 @@
 import edu.fcps.Digit;
-import edu.fcps.karel2.Robot;
-public class Two extends Digit implements Runnable{
 
-   public Two(int x,int y){
+public class OppFour extends Digit implements Runnable{
+
+   public OppFour(int x,int y){
       super(x,y);
    }
    public void run(){
-      segment1_On();
+      segment1_Off();
       segment2_On();
       segment3_Off();
-      segment4_On();
+      segment4_Off();
       segment5_On();
-      segment6_Off();
+      segment6_On();
       segment7_On();
    }
    public void display(){
-      segment1_On();
+      segment1_Off();
       segment2_On();
       segment3_Off();
-      segment4_On();
+      segment4_Off();
       segment5_On();
-      segment6_Off();
+      segment6_On();
       segment7_On();
    }
 }

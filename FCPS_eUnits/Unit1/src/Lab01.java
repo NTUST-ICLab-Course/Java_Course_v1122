@@ -12,7 +12,7 @@ public class Lab01 {
 
 		Display.openWorld("../maps/school.map");
       Display.setSize(10,10);
-      Display.setSpeed(2);
+      Display.setSpeed(10);
       
 		Robot lisa = new Robot();
       Robot pete = new Robot(4,5,Display.SOUTH,0);
@@ -77,8 +77,5 @@ public class Lab01 {
       pete.turnLeft();
       pete.turnLeft();
       pete.move();
-      
-      
-      
 	}
 }
