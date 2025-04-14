@@ -8,6 +8,9 @@
    * FCPS Unit2 Lab00-03
       * 影片：https://youtu.be/Djg3uGO05_E
 
+## 助教講解影片
+* [2025-陳建宇-Lab10~Lab11](https://www.youtube.com/playlist?list=PLfddU4ruCk0BgV1YMKGOPVmeN_aFWwE37)
+
 ## 解答
   * Lab 解答影片
       * Unit2 Lab00 Ans : https://youtu.be/ZSY4NcphR6Q
