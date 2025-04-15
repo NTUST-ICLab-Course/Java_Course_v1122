@@ -10,6 +10,7 @@
 
 ## 助教講解影片
 * [2025-吳亮穎-Unit2 Lab00~Lab03](https://youtu.be/2C1a2ZkWt18)
+* [2025-陳建宇-Unit2 Lab00~Lab03](https://www.youtube.com/playlist?list=PLfddU4ruCk0CdViWqnGK5tRLF9JGQjn5l)
 
 ## 解答
   * Lab 解答影片

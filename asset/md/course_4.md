@@ -17,9 +17,7 @@
   * 影片：https://www.youtube.com/watch?v=mqrbqfdhhw0
 ## 助教講解影片
 * [2025-陳敬橋-Lab17~Lab19](https://www.youtube.com/watch?v=-OF_hchKcus)
-
-## 助教講解影片
-* [2025-陳建宇-Lab10~Lab11](https://www.youtube.com/playlist?list=PLfddU4ruCk0CdViWqnGK5tRLF9JGQjn5l)
+* [2025-陳建宇-Lab17~Lab19](https://www.youtube.com/playlist?list=PLfddU4ruCk0BP935EQZ8d2T6fsuCEf-_P)
 
 ## 解答
   * Lab 解答影片

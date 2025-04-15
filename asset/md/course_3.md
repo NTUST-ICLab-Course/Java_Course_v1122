@@ -21,7 +21,7 @@
       * 影片： https://youtu.be/2q3jhd-7RU4
 ## 助教講解影片
 * [2025-陳敬橋-Lab10~Lab16](https://drive.google.com/file/d/1QFkn5C4EWtWPh670UKcBA6nT7tZT5QrZ/view?usp=drive_link)
-* [2025-陳建宇-Lab10~Lab11](https://www.youtube.com/playlist?list=PLfddU4ruCk0DdsTDJSqCOVd8L-Sta8zPv)
+* [2025-陳建宇-Lab10~Lab16](https://www.youtube.com/playlist?list=PLfddU4ruCk0DdsTDJSqCOVd8L-Sta8zPv)
 
 ## Lab 10 extra
    * 於學期結束前完成 Lab10 extra，可於學期總成績加分
