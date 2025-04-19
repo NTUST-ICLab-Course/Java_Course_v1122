@@ -31,12 +31,17 @@
       }
        public void drawShape()
       {
-      
-         /************************/
-      	/*                      */
-      	/* Your code goes here. */
-      	/*                      */
-      	/************************/
-      
+         for(int i = 1;i <= mySides;i++){
+            forward(mySize);
+            turnLeft(360/mySides);
+         }
       }
+       public void drawShape(int x){
+         for(int i = 3;i <= x;i++){
+            for(int k = 0;k < i;k++){
+               forward(mySize);
+               turnLeft(360/i);
+            }
+         }
+       }
    }
