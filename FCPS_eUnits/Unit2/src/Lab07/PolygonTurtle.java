@@ -29,14 +29,23 @@
       {
          mySides = s;
       }
-       public void drawShape()
+       public void drawShape(int g)
       {
-      
-         /************************/
-      	/*                      */
-      	/* Your code goes here. */
-      	/*                      */
-      	/************************/
-      
+         for(int i=3;i<=g;i++){
+            for(int k=0;k<i;k++){
+               forward(50);
+               turnLeft(360/i);
+            }
+         }
       }
+      public void drawShape()
+      {
+         for(int i=3;i<=1;i++){
+            for(int k=0;k<=i;k++){
+               forward(mySize);
+               turnLeft(360/i);
+            }
+         }
+      }
+
    }
