@@ -9,7 +9,7 @@
       * 影片：https://youtu.be/VZA6S4GWnrQ
 
 ## 助教講解影片
-* [2025-吳亮穎-Unit2 Lab00~Lab03](https://youtu.be/6cc0LbIJOss)
+* [2025-吳亮穎-Unit2 Lab10~Lab13](https://youtu.be/6cc0LbIJOss)
 
 ## 解答
   * Lab 解答影片
