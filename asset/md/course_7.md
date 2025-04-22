@@ -7,7 +7,7 @@
 ## 助教講解影片
 * [2025-陳敬橋-Unit2 Lab04~Lab06](https://youtu.be/mHvwm5-Flfk)
 * [2025-陳敬橋-Unit2 Lab07~Lab09](https://youtu.be/b4Ww2Efwbrc)
-  
+* [2025-陳敬橋-Unit2 Lab07 EX-star](https://youtu.be/HYE_q895wP4)
 ## 解答
   * Lab 解答影片
       * Unit2 Lab07 Ans : https://youtu.be/wUNko-Td9o0
