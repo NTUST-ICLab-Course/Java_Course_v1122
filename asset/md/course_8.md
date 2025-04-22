@@ -8,6 +8,9 @@
    * CodingJPanel (2020.05.13)
       * 影片：https://youtu.be/VZA6S4GWnrQ
 
+## 助教講解影片
+* [2025-吳亮穎-Unit2 Lab10~Lab13](https://youtu.be/6cc0LbIJOss)
+
 ## 解答
   * Lab 解答影片
       * Unit2 Lab10 Ans : https://youtu.be/1cmXP8TyleI
