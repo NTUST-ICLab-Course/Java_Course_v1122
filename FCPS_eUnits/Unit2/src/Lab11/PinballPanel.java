@@ -23,9 +23,9 @@
          myBuffer.fillRect(0, 0, FRAME,FRAME);
          int xPos = (int)(Math.random()*(FRAME-100) + 50);
          int yPos = (int)(Math.random()*(FRAME-100)+ 50);
-         ball = new Ball(xPos, yPos, 50, Color.BLACK);
+         ball = new Ball(xPos, yPos, 50, Color.BLUE);
         
-         t = new Timer(5, new Listener());
+         t = new Timer(10, new Listener());
          t.start();
       }
        public void paintComponent(Graphics g)
