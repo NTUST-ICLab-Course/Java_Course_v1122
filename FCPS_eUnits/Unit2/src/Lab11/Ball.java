@@ -49,7 +49,21 @@
             setX(rightEdge - getRadius());
             dx = dx * -1; 
          }
-         else if 
+         else if(getY() >= rightEdge - getRadius()) 
+         {
+            setY(bottomEdge - getRadius());
+            dy = dy*-1;
+         }
+         else if(getX() <= getRadius())     //hits the right edge
+         {
+            setX(getRadius());
+            dx = dx * -1; 
+         }
+         else if(getY() <=getRadius()) 
+         {
+            setY(getRadius());
+            dy = dy*-1;
+         }
          
       }
    }
