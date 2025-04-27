@@ -24,7 +24,7 @@
          myBuffer.setColor(BACKGROUND);
          myBuffer.fillRect(0, 0, FRAME, FRAME);
          pd = new Polkadot();
-         pd2 = new Polkadot();
+         pd2 = new Polkadot(50,50,30,Color.yellow);
          t = new Timer(1000, new Listener());
          t.start();
       }
