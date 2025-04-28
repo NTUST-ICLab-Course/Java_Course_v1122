@@ -1,36 +1,40 @@
 import javax.swing.*;
 import java.awt.*;
 import java.awt.image.*;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
+
 
 public class ProjectPanel extends JPanel
 {
-   private static final ImageIcon THOMAS = new ImageIcon("tj.jpg");
+   private static final ImageIcon Thomas = new ImageIcon("tj.jpg");
    private BufferedImage myImage;
    private Graphics2D myBuffer;
    private Timer t1, t2;
    private int xPos=250;
-   private int yPos = 150;
+   private int yPos = 180;
 
-   public ProjectPanel()
-   {
-      xPos = 50;
-      myImage = new BufferedImage(700, 500, BufferedImage.TYPE_INT_RGB);
-      myBuffer = (Graphics2D)myImage.getGraphics();
-      t1 = new Timer(100, new Listener_1());
-      
-      t1.start();
-      t2 = new Timer(3000,new Listener2_());
-   }
+   public ProjectPanel() {
+    xPos = 50;
+    myImage = new BufferedImage(700, 500, BufferedImage.TYPE_INT_RGB);
+    myBuffer = (Graphics2D) myImage.getGraphics();
+    
+    t1 = new Timer(120, new Listener_1());
+    t1.start();
+    t2 = new Timer(3000, new Listener_2());
+}
+
    
    public void paintComponent(Graphics g)
       {
          g.drawImage(myImage,0,0,getWidth(),getHeight(),null);
       }
-   private class Listener_1 implements ActionListener
+      
+   public class Listener_1 implements ActionListener
       {
             public void actionPerformed(ActionEvent e) {
-                int xPoints[] = { xPos,xPos, xPos + 50,xPos, xPos - 50,xPos,xPos, xPos - 50, xPos + 50 };
-                int yPoints[] = { yPos, yPos + 50, yPos, yPos + 50, yPos, yPos + 50, yPos + 100, yPos + 100, yPos + 150 };
+                int xPoints[] = { xPos,xPos, xPos + 50,xPos, xPos - 50,xPos,xPos, xPos - 50, xPos,  xPos + 50 };
+                int yPoints[] = { yPos, yPos + 50, yPos, yPos + 50, yPos, yPos + 50, yPos + 100, yPos + 150,yPos+100, yPos + 150 };
             
                 myBuffer.setColor(Color.gray);
                 myBuffer.fillRect(0, 0, 700, 350);
@@ -44,7 +48,7 @@ public class ProjectPanel extends JPanel
                 xPos = xPos + 5;
                 if (xPos >= 200) {
                     myBuffer.setFont(new Font("Monospaced", Font.BOLD, 24));
-                    myBuffer.drawString("騎颱風要搭捷運出門", 300, 150);
+                    myBuffer.drawString("颱風天要帶多少錢出門?", 300, 150);
                     myBuffer.drawOval(250, 80, 400, 100);
                     repaint();
                     t1.stop();
@@ -58,9 +62,12 @@ public class ProjectPanel extends JPanel
       {
           public void actionPerformed(ActionEvent e)
          {
-            t2.start();
+            t2.stop();
             myBuffer.setFont(new Font("Monospaced", Font.BOLD,24));
-            myBuffer.drawString()
+            myBuffer.drawString("4千萬 因為...",320,250);
+            myBuffer.drawString("颱風天沒事千萬不要出門",330,280);
+            myBuffer.drawOval(250,190,400,130);
+            repaint();
          }
       }
 }
