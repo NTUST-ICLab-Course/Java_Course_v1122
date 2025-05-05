@@ -14,6 +14,9 @@
    * Unit2 Lab17   
       * 影片：https://youtu.be/Us9_71Xy-fs
 
+## 助教講解影片
+* [2025-陳建宇-Unit2 Lab14~Lab17](https://www.youtube.com/playlist?list=PLfddU4ruCk0Am_w7MsQFx366s0qRqzkgS)
+
 ## 解答
   * Lab 解答影片
       * Unit2 Lab14 Ans : https://youtu.be/C5ZdmPtLdRk
