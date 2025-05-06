@@ -13,6 +13,8 @@
       * 影片：https://youtu.be/U-DnIXry8Ys
    * Unit2 Lab17   
       * 影片：https://youtu.be/Us9_71Xy-fs
+## 助教講解影片
+* [2025-陳敬橋-Unit2 Lab14~Lab17](https://youtu.be/j9RLuD5TZDI)
 
 ## 解答
   * Lab 解答影片
