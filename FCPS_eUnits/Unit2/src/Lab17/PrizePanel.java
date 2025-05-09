@@ -56,12 +56,12 @@
             pd.draw(myBuffer);
               
             myBuffer.setColor(Color.RED);
-            myBuffer.setFont(new Font("Monospaced", Font.BOLD, 24));
-            myBuffer.drawString("Use UP DOWN LEFT RIGHT to control black ball's location",50,40);
+            myBuffer.setFont(new Font("Monospaced", Font.BOLD, 11));
+            myBuffer.drawString("Use UP DOWN LEFT RIGHT to control black ball's location",10,40);
             
             myBuffer.setColor(Color.RED);
-            myBuffer.setFont(new Font("Monospaced", Font.BOLD, 24));
-            myBuffer.drawString("Use 8 5 4 6 to control yellow ball's location",50,55);
+            myBuffer.setFont(new Font("Monospaced", Font.BOLD, 11));
+            myBuffer.drawString("Use 8 5 4 6 to control yellow ball's location",10,55);
             
             myBuffer.setColor(Color.RED);
             myBuffer.setFont(new Font("Monospaced", Font.BOLD, 24));
