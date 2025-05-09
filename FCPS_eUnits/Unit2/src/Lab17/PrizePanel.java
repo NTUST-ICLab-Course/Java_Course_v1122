@@ -26,9 +26,9 @@
          int yPos = (int)(Math.random()*(FRAME - 100) + 50);
          ball = new Ball(xPos,yPos,50,Color.BLACK);
          
-         int xPos = (int)(Math.random()*(FRAME - 100) + 50);
-         int yPos = (int)(Math.random()*(FRAME - 100) + 50);
-         pd = new Polkadot(xPos,yPos,20,Color.YELLOW);
+         int xDot = (int)(Math.random()*(FRAME - 100) + 50);
+         int yDot = (int)(Math.random()*(FRAME - 100) + 50);
+         pd = new Polkadot(xDot,yDot,20,Color.YELLOW);
          
          addMouseListener(new Mouse());
          t = new Timer(10, new Listener());
@@ -105,13 +105,13 @@
             if(e.getKeyCode() == KeyEvent.VK_UP){
                ball.setY(ball.getY() - 20);
             }
-            else if(e.getKeyCode() == KeyEvent.VK_DOWN){
+            if(e.getKeyCode() == KeyEvent.VK_DOWN){
                ball.setY(ball.getY() + 20);
             }
-            else if(e.getKeyCode() == KeyEvent.VK_LEFT){
+            if(e.getKeyCode() == KeyEvent.VK_LEFT){
                ball.setY(ball.getX() - 20);
             }
-            else if(e.getKeyCode() == KeyEvent.VK_RIGHT){
+            if(e.getKeyCode() == KeyEvent.VK_RIGHT){
                ball.setY(ball.getX() + 20);
             }
          
@@ -121,19 +121,19 @@
                      pd.setY(pd.getDiameter());
                   }
             }
-            else if(e.getKeyCode() == KeyEvent.VK_NUMPAD5){
+            if(e.getKeyCode() == KeyEvent.VK_NUMPAD5){
                   pd.setY(pd.getY() + 10);
                   if(pd.getY() >= FRAME){
                      pd.setY(FRAME - pd.getDiameter());
                   }
             }
-            else if(e.getKeyCode() == KeyEvent.VK_NUMPAD4){
+            if(e.getKeyCode() == KeyEvent.VK_NUMPAD4){
                   pd.setX(pd.getX() - 10);
                   if(pd.getX() <= pd.getRadius()){
                      pd.setX(pd.getDiameter());
                   }
             }
-            else if(e.getKeyCode() == KeyEvent.VK_NUMPAD6){
+            if(e.getKeyCode() == KeyEvent.VK_NUMPAD6){
                   pd.setX(pd.getX() + 10);
                   if(pd.getX() >= FRAME){
                      pd.setX(FRAME + pd.getDiameter());

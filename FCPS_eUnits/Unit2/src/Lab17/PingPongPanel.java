@@ -24,8 +24,8 @@
          myImage =  new BufferedImage(FRAME, FRAME, BufferedImage.TYPE_INT_RGB);
          myBuffer = myImage.getGraphics();
          
-         player1 = new Bumper(0,250,xwidth,ywidth,Color.red);
-         player2 = new Bumper(FRAME - xwidth,250,xwidth,ywidth,Color.blue);
+         player1 = new Bumper(0,200,xwidth,ywidth,Color.red);
+         player2 = new Bumper(FRAME - xwidth,200,xwidth,ywidth,Color.blue);
          ball = new Ball();
          
          t = new Timer(10, new Listener());
@@ -98,19 +98,19 @@
                   player1.setY(0);
                }
             }
-            else if(e.getKeyCode() == KeyEvent.VK_S){
+            if(e.getKeyCode() == KeyEvent.VK_S){
                player1.setY(player1.getY() + 30);
                if(player1.getY() >= FRAME - ywidth){
                   player1.setY(FRAME - ywidth);
                }
             }
-            else if(e.getKeyCode() == KeyEvent.VK_A){
+            if(e.getKeyCode() == KeyEvent.VK_A){
                player1.setX(player1.getX() - 30);
                if(player1.getX() <= 0){
                   player1.setX(0);
                }
             }
-            else if(e.getKeyCode() == KeyEvent.VK_D){
+            if(e.getKeyCode() == KeyEvent.VK_D){
                player1.setX(player1.getX() + 30);
                if(player1.getX() >= FRAME / 2 - xwidth){
                   player1.setX(FRAME / 2 - xwidth);
@@ -124,19 +124,19 @@
                   player2.setY(0);
                }
             }
-            else if(e.getKeyCode() == KeyEvent.VK_NUMPAD5){
+            if(e.getKeyCode() == KeyEvent.VK_NUMPAD5){
                player2.setY(player2.getY() + 30);
                if(player2.getY() >= FRAME - ywidth){
                   player2.setY(FRAME - ywidth);
                }
             }
-            else if(e.getKeyCode() == KeyEvent.VK_NUMPAD4){
+            if(e.getKeyCode() == KeyEvent.VK_NUMPAD4){
                player2.setX(player2.getX() - 30);
                if(player2.getX() <= FRAME / 2){
                   player2.setX(FRAME / 2);
                }
             }
-            else if(e.getKeyCode() == KeyEvent.VK_NUMPAD6){
+            if(e.getKeyCode() == KeyEvent.VK_NUMPAD6){
                player2.setX(player2.getX() + 30);
                if(player2.getX() >= FRAME / 2 - xwidth){
                   player2.setX(FRAME / 2 - xwidth);
