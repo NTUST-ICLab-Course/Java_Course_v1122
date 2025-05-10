@@ -11,6 +11,7 @@
       private Graphics myBuffer;
       private Ball ball;
       private Polkadot pd;
+      
       private Timer t;
       private int hits = 0; 
 		//constructor   
