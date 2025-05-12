@@ -31,19 +31,30 @@
          myBuffer = myImage.getGraphics();
          
          // create ball and jump
-      
-      
+         ball = new Ball();
+         ball.setRadius(BALL_DIAM/2);
+         ball.setColor(BALL_COLOR);
+         ball.jump(FRAME,FRAME);
          // create prize and jump
-      
-            
+         prize = new Polkadot();
+         prize.setDiameter(PRIZE_DIAM);
+         prize.setColor(PRIZE_COLOR);
+         prize.jump(FRAME,FRAME);
          // create bumper and jump
-      
-      	
+         bumper = new Bumper();
+      	bumper.setXWidth(BUMPER_X_WIDTH);
+      	bumper.setYWidth(BUMPER_Y_WIDTH);
+         bumper.setColor(BUMPER_COLOR);
+         bumper.jump(FRAME,FRAME);
          // ensure ball is outside the bumper
-      
-        
+         while(bumper.inBumper(ball)){
+            ball.jump(FRAME,FRAME);
+         }
       	// ensure prize is outside the bumper
-      
+         while(bumper.inBumper(prize)){
+            prize.jump(FRAME,FRAME);
+         }
+
       
          hits = 0;
          timer = new Timer(5, new Listener());

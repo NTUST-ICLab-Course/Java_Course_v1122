@@ -13,10 +13,10 @@
          frame.setContentPane(new TurtlePanel());
          frame.setVisible(true);
       
-         PolygonTurtle smidge = new PolygonTurtle(100.0, 3);
+         PolygonTurtle smidge = new PolygonTurtle();
          smidge.setColor(Color.BLUE);
          smidge.setThickness(6);
-         smidge.drawShape();
+         smidge.drawShape(6);
       
          /************************/
       	/*                      */

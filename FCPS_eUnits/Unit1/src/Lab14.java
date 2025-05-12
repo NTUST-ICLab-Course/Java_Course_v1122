@@ -9,6 +9,7 @@
          Swimmer fraser = new Swimmer(4);
          Swimmer spitz = new Swimmer(6);
          Swimmer phelps = new Swimmer(8);
+
          Thread t1 = new Thread( weismuller );
          Thread t2 = new Thread( fraser );
          Thread t3 = new Thread( spitz );
