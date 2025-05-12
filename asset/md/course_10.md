@@ -13,6 +13,9 @@
 ## 助教講解影片
 * [2025-吳亮穎-Unit2 Lab18~Lab20](https://youtu.be/fqWjzbut8yc)
 
+## 助教講解影片
+* [2025-陳建宇-Unit2 Lab18~Lab20](https://www.youtube.com/playlist?list=PLfddU4ruCk0CUlw2T_7p5p7RylN-rgpEg)
+
 ## 解答
   * Lab 解答影片
       * Unit2 Lab18 Ans : https://youtu.be/nVob8LcjD3Y
