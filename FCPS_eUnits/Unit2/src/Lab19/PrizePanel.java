@@ -15,6 +15,7 @@
       private int hits = 0;
       int x=0;
       int y=0;
+      int g = 50;
 		//constructor   
        public PrizePanel()
       {
@@ -24,7 +25,7 @@
          myBuffer.fillRect(0, 0, FRAME, FRAME);
          ball = new Ball();
          //***********************************************************************
-         myPDarray = new Polkadot[50];
+         myPDarray = new Polkadot[g];
          for(int k=0; k<myPDarray.length; k++)
          {
            int x = (int)(Math.random() *(FRAME -25) + 13);
@@ -49,7 +50,7 @@
             myBuffer.fillRect(0, 0, FRAME, FRAME);
             
             ball.move(FRAME, FRAME);
-            for(int i=0;i<50;i++){
+            for(int i=0;i<g;i++){
                collide(ball, myPDarray[i]);
                myPDarray[i].draw(myBuffer);
             }
